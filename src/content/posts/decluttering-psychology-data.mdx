@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2640
-affiliate: false
+affiliate: true
 faq:
   - question: "Why is it so hard to throw things away?"
     answer: "Multiple psychological mechanisms compound. (1) Endowment effect (Kahneman, Thaler): we value things we own 2-3x more than equivalent things we don't own. Keeping = high-value reference; donating = loss. (2) Sunk cost fallacy: we resist 'wasting' the money/time invested in items, even though keeping doesn't recover the investment. (3) Identity attachment: things represent who we were or who we wanted to be. (4) Decision fatigue: each item requires deciding, depleting willpower. (5) Loss aversion: we feel losses 2x more than equivalent gains. Combined, these make the rational 'I don't use this; I should release it' surprisingly difficult emotionally."
@@ -79,6 +79,9 @@ faq:
     answer: "Several research-backed strategies. (1) Reframe the question: 'Would I buy this today at full price?' counters endowment effect. (2) Take photos of sentimental items, then donate the physical item — preserves memory without volume. (3) Donate to specific people/causes who'll use it — emotionally satisfying. (4) Set time-bounded experiment: 'box up for 90 days; if not retrieved, donate' — defers decision. (5) Decide by category (KonMari) rather than item-by-item — reduces decision fatigue. (6) Practice during low-emotion periods (not after argument or major life event). The combination creates space to release things rationally."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 Decluttering looks like a logistical problem (where to put things, what to keep) but is fundamentally a psychological one. Behavioral economics, identity theory, and decluttering research converge on a clear pattern: the difficulty of releasing items has more to do with cognitive biases and emotional attachments than with the items themselves. This article walks through what the research actually shows about why we keep stuff and how to overcome the resistance.
 
@@ -498,3 +501,57 @@ Awareness of these mechanisms enables more rational decisions. The KonMari metho
 
 For complementary content, see [KonMari method 2024](/posts/konmari-2024-method-updated), [Japanese storage principles](/posts/japanese-storage-principles), and [daily routines for minimalism](/posts/daily-routines-minimalism).
 
+
+## Decluttering psychology books beyond KonMari
+
+If KonMari didn't stick, these three books cover the decluttering decision tree from different philosophical angles. Each has a distinct framework — read whichever maps to your hesitation pattern:
+
+<ProductBox
+  name="Goodbye, Things (Fumio Sasaki)"
+  priceHint="$12-18 — Japanese ultra-minimalism manifesto"
+  pros={[
+    "Stronger philosophical lens than KonMari — why-not-just-how",
+    "Personal story of going from cluttered to extreme minimalism",
+    "Updated edition includes post-2020 reflections"
+  ]}
+  cons={[
+    "Some chapters skew toward solo-living readers vs families",
+    "Lifestyle level (around 150 items) extreme for most"
+  ]}
+  href="https://www.amazon.com/s?k=Goodbye+Things+Fumio+Sasaki"
+  region="us"
+/>
+
+<ProductBox
+  name="The More of Less (Joshua Becker)"
+  priceHint="$15-22 — family-friendly minimalism"
+  pros={[
+    "Family-friendly minimalism — covers spouses, kids, gifts",
+    "Less philosophical than Sasaki, more practical",
+    "Companion site / blog extends content well"
+  ]}
+  cons={[
+    "Some readers find the writing style preachy",
+    "Examples skew toward US suburban household sizes"
+  ]}
+  href="https://www.amazon.com/s?k=More+of+Less+Joshua+Becker"
+  region="us"
+/>
+
+<ProductBox
+  name="Essentialism (Greg McKeown)"
+  priceHint="$15-22 — minimalism applied to time and attention"
+  pros={[
+    "Reframes minimalism from objects to commitments and projects",
+    "Strong on saying no — useful for over-committed schedules",
+    "Co-applies to physical clutter via the 'less but better' lens"
+  ]}
+  cons={[
+    "More about scheduling than physical decluttering",
+    "Some examples feel corporate/executive-focused"
+  ]}
+  href="https://www.amazon.com/s?k=Essentialism+Greg+McKeown"
+  region="us"
+/>
+
+For physical-clutter focus, Sasaki + Becker is the strongest pair. Add McKeown if your real problem is over-committed time, not over-stuffed closets.
