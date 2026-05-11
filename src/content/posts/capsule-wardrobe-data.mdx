@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2600
-affiliate: false
+affiliate: true
 faq:
   - question: "How many clothes do I actually need?"
     answer: "Per Project 333 research and Vivienne Files analysis, most adults can dress well with 30-50 total wardrobe items including shoes and accessories. Project 333 specifically: 33 items for 3 months. Surveys of 'tried and stuck with' minimalist wardrobes cluster around: 7-10 tops, 5-7 bottoms, 3-5 dresses (if applicable), 1 coat per major season, 2-3 pairs of shoes, 5-8 accessories. The number that matters most isn't a specific count — it's: do you wear what you own, do clothes fit and serve their role, do you enjoy getting dressed?"
@@ -79,6 +79,9 @@ faq:
     answer: "Per EPA textile waste data, U.S. textile waste increased 81% from 2000-2018, with most ending up in landfills. The fashion industry produces 8-10% of global emissions per Ellen MacArthur Foundation research. Owning fewer, better clothes (capsule approach) directly reduces consumption upstream. Specific impact: a capsule wardrobe owner buying 5-10 quality pieces per year vs the average 60+ pieces purchased per year reduces personal fashion footprint 80-90%. Combined with secondhand shopping (ThredUp, Poshmark, local thrift), the impact compounds."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The capsule wardrobe concept has matured from extreme minimalism into mainstream practice. Project 333, KonMari clothing principles, and decades of fashion editorial guidance converge on a clear pattern: most adults can dress well with 30-50 total wardrobe items. This article walks through the actual data and methods that work.
 
@@ -420,3 +423,57 @@ For most adults considering capsule wardrobe:
 Most sustained capsule wardrobes settle at 30-50 items total. The number isn't the point — the alignment between what you own and what you wear is.
 
 For complementary content, see [KonMari method 2024](/posts/konmari-2024-method-updated).
+
+## Capsule wardrobe and intentional-style books
+
+Capsule wardrobe practice depends as much on the underlying philosophy as on the specific rules. These three books cover the spectrum from strict capsule rules to broader curated-closet frameworks:
+
+<ProductBox
+  name="Project 333 (Courtney Carver)"
+  priceHint="$13-20 — 33 items, 3 months capsule challenge"
+  pros={[
+    "Specific 33-item, 3-month framework — clear rules",
+    "Includes seasonal pivot guidance for harsh-winter readers",
+    "Pairs with Carver's blog and community for ongoing accountability"
+  ]}
+  cons={[
+    "33-item rule may feel arbitrary; treat as starting point",
+    "US-centric examples; adapt for tropical or extreme climates"
+  ]}
+  href="https://www.amazon.com/s?k=Project+333+Courtney+Carver"
+  region="us"
+/>
+
+<ProductBox
+  name="The Curated Closet (Anuschka Rees)"
+  priceHint="$18-25 — broader wardrobe philosophy"
+  pros={[
+    "Stronger on personal style discovery before paring down",
+    "Detailed sections on quality assessment + cost-per-wear math",
+    "Companion workbook available for deeper exercises"
+  ]}
+  cons={[
+    "Longer, denser than Project 333",
+    "Less prescriptive — won't give you a final item count"
+  ]}
+  href="https://www.amazon.com/s?k=Curated+Closet+Anuschka+Rees"
+  region="us"
+/>
+
+<ProductBox
+  name="The Year of Less (Cait Flanders)"
+  priceHint="$13-20 — memoir-driven approach"
+  pros={[
+    "Memoir of a 12-month shopping ban — easier read than how-to books",
+    "Strong on the psychology of impulse purchase patterns",
+    "Pairs with the more prescriptive books for full coverage"
+  ]}
+  cons={[
+    "Memoir, not a method — less prescriptive guidance",
+    "Some chapters lean into broader debt/budget topics"
+  ]}
+  href="https://www.amazon.com/s?k=Year+of+Less+Cait+Flanders"
+  region="us"
+/>
+
+For a strict starting framework, Project 333 is the strongest entry. Add The Curated Closet once the basic capsule is established and you want to refine personal style. Read The Year of Less when you need motivational fuel rather than a checklist.
