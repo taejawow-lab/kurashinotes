@@ -6,9 +6,10 @@
     "scripts":  {
                     "dev":  "astro dev",
                     "start":  "astro dev",
-                    "build":  "astro build",
+                    "build":  "npm run lint:content && astro build",
                     "preview":  "astro preview",
-                    "astro":  "astro"
+                    "astro":  "astro",
+                    "lint:content":  "node scripts/check-kurashinotes-japanese.mjs"
                 },
     "dependencies":  {
                          "astro":  "^5.0.0",
