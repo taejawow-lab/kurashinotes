@@ -8,11 +8,53 @@ const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
 
 const aiDisclosure = lang === 'ko'
   ? '본 사이트의 콘텐츠는 AI 도구의 보조를 받아 작성됩니다. 모든 데이터는 1차 자료에서 검증되며, 본문 인용 링크로 직접 확인할 수 있습니다.'
-  : 'Content on this site is produced with AI assistance. All data points are verified against primary sources, and all sources are linked inline for direct verification.';
+  : lang === 'ja'
+    ? '本サイトのコンテンツはAIツールの補助を受けて作成しています。掲載するデータは一次資料で確認し、本文中の出典リンクから直接検証できるようにしています。'
+    : 'Content on this site is produced with AI assistance. All data points are verified against primary sources, and all sources are linked inline for direct verification.';
 
 const affiliateDisclosure = lang === 'ko'
   ? '쿠팡파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.'
-  : 'As an Amazon Associate and other affiliate partner, we earn from qualifying purchases.';
+  : lang === 'ja'
+    ? 'Amazonアソシエイトおよびその他のアフィリエイトプログラムにより、対象商品の購入で当サイトが紹介料を受け取る場合があります。'
+    : 'As an Amazon Associate and other affiliate partner, we earn from qualifying purchases.';
+
+const labels = lang === 'ja'
+  ? {
+      colophon: '制作情報',
+      sections: 'セクション',
+      home: 'ホーム',
+      about: 'サイトについて',
+      editorial: '編集方針',
+      editorialProcess: '制作プロセス',
+      editorialStandards: '編集基準',
+      legal: '法務・開示',
+      affiliate: 'アフィリエイト開示',
+      privacy: 'プライバシー',
+      contact: 'お問い合わせ',
+      follow: 'フォロー',
+      disclosure: '開示情報',
+      rights: '無断転載を禁じます',
+      setIn: '使用書体',
+      builtWith: 'Astroで構築',
+    }
+  : {
+      colophon: 'Colophon',
+      sections: 'Sections',
+      home: 'Home',
+      about: 'About',
+      editorial: 'Editorial',
+      editorialProcess: 'Editorial Process',
+      editorialStandards: 'Editorial Standards',
+      legal: 'Legal',
+      affiliate: 'Affiliate',
+      privacy: 'Privacy',
+      contact: 'Contact',
+      follow: 'Follow',
+      disclosure: 'Disclosure',
+      rights: 'All rights reserved',
+      setIn: 'Set in',
+      builtWith: 'Built with Astro',
+    };
 ---
 
 <footer class="border-t border-border mt-24 md:mt-32 relative overflow-hidden">
@@ -26,7 +68,7 @@ const affiliateDisclosure = lang === 'ko'
       <div class="col-span-12 md:col-span-8">
         {edition && (
           <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-4">
-            {edition} · Colophon
+            {edition} · {labels.colophon}
           </p>
         )}
         <h2
@@ -54,29 +96,29 @@ const affiliateDisclosure = lang === 'ko'
     <!-- nav 그리드 — 더 미니멀 -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pt-12 md:pt-16 border-t border-border">
       <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">Sections</h4>
+        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.sections}</h4>
         <ul class="space-y-3 text-sm">
-          <li><a href="/" class="hover:underline underline-offset-4 decoration-from-font">Home</a></li>
-          <li><a href="/about" class="hover:underline underline-offset-4 decoration-from-font">About</a></li>
+          <li><a href="/" class="hover:underline underline-offset-4 decoration-from-font">{labels.home}</a></li>
+          <li><a href="/about" class="hover:underline underline-offset-4 decoration-from-font">{labels.about}</a></li>
         </ul>
       </div>
       <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">Editorial</h4>
+        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.editorial}</h4>
         <ul class="space-y-3 text-sm">
-          <li><a href="/editorial-process" class="hover:underline underline-offset-4 decoration-from-font">Editorial Process</a></li>
-          <li><a href="/editorial-standards" class="hover:underline underline-offset-4 decoration-from-font">Editorial Standards</a></li>
+          <li><a href="/editorial-process" class="hover:underline underline-offset-4 decoration-from-font">{labels.editorialProcess}</a></li>
+          <li><a href="/editorial-standards" class="hover:underline underline-offset-4 decoration-from-font">{labels.editorialStandards}</a></li>
         </ul>
       </div>
       <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">Legal</h4>
+        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.legal}</h4>
         <ul class="space-y-3 text-sm">
-          <li><a href="/affiliate-disclosure" class="hover:underline underline-offset-4 decoration-from-font">Affiliate</a></li>
-          <li><a href="/privacy" class="hover:underline underline-offset-4 decoration-from-font">Privacy</a></li>
-          <li><a href="/contact" class="hover:underline underline-offset-4 decoration-from-font">Contact</a></li>
+          <li><a href="/affiliate-disclosure" class="hover:underline underline-offset-4 decoration-from-font">{labels.affiliate}</a></li>
+          <li><a href="/privacy" class="hover:underline underline-offset-4 decoration-from-font">{labels.privacy}</a></li>
+          <li><a href="/contact" class="hover:underline underline-offset-4 decoration-from-font">{labels.contact}</a></li>
         </ul>
       </div>
       <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">Follow</h4>
+        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.follow}</h4>
         <ul class="space-y-3 text-sm">
           <li><a href={import.meta.env.PUBLIC_SITE_PINTEREST || '#'} class="hover:underline underline-offset-4">Pinterest →</a></li>
           <li><a href={import.meta.env.PUBLIC_SITE_INSTAGRAM || '#'} class="hover:underline underline-offset-4">Instagram →</a></li>
@@ -90,7 +132,7 @@ const affiliateDisclosure = lang === 'ko'
       <div class="grid grid-cols-12 gap-6 md:gap-8">
         <div class="col-span-12 md:col-span-4">
           <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono">
-            ¶ Disclosure
+            ¶ {labels.disclosure}
           </p>
         </div>
         <div class="col-span-12 md:col-span-8 space-y-3 text-sm text-foreground/70 leading-relaxed">
@@ -102,13 +144,13 @@ const affiliateDisclosure = lang === 'ko'
 
     <!-- bottom rail -->
     <div class="mt-12 pt-6 border-t border-border flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono">
-      <span>© {currentYear} {siteName} · All rights reserved</span>
-      <span>Set in {' '}
+      <span>© {currentYear} {siteName} · {labels.rights}</span>
+      <span>{labels.setIn}{' '}
         <span style="font-family: var(--font-display);" class="normal-case tracking-tight text-sm">
           {/* fontDisplay 이름은 CSS variable이라 표시 어려우니 일반 표기 */}
           serif &amp; sans
         </span>
-        {' '} · Built with Astro
+        {' '} · {labels.builtWith}
       </span>
     </div>
   </div>
