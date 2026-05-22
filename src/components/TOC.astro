@@ -6,12 +6,14 @@ export interface Props {
 
 const { headings } = Astro.props;
 const filtered = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+const lang = import.meta.env.PUBLIC_SITE_LANG || 'ja';
+const label = lang === 'ko' ? '목차' : lang === 'ja' ? '目次' : 'Contents';
 ---
 
 {filtered.length > 0 && (
-  <nav aria-label="Table of contents" class="border border-border rounded-lg p-4">
+  <nav aria-label={label} class="border border-border rounded-lg p-4">
     <h4 class="text-sm font-semibold uppercase tracking-wider mb-3 text-muted-foreground">
-      Contents
+      {label}
     </h4>
     <ul class="space-y-2 text-sm">
       {filtered.map((h) => (

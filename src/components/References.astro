@@ -5,8 +5,8 @@ export interface Props {
 }
 
 const { sources } = Astro.props;
-const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
-const heading = lang === 'ko' ? '참고 자료' : 'References';
+const lang = import.meta.env.PUBLIC_SITE_LANG || 'ja';
+const heading = lang === 'ko' ? '참고 자료' : lang === 'ja' ? '参考資料' : 'References';
 ---
 
 <aside class="mt-12 pt-8 border-t border-border">
