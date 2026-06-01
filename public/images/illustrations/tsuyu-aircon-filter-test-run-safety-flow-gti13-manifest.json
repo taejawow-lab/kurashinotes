@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-02",
+  "site": "kurashinotes",
+  "gti13_gate": "available true via direct ComfyUI; sentinel unreachable but direct ComfyUI ok",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "slug": "tsuyu-aircon-filter-test-run-safety-flow",
+  "post": "src/content/posts/tsuyu-aircon-filter-test-run-safety-flow.mdx",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-aircon-filter-flow-2026-hero.png",
+      "bytes": 1157270,
+      "prompt": "Japanese apartment air conditioner on wall in clean room, remote turned face down, no text, no labels",
+      "seed": 202606020200,
+      "prompt_id": "4304710b-783f-4236-a437-c436d1fdc8b7",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-aircon-filter-flow-2026-01.png",
+      "bytes": 1475112,
+      "prompt": "safe dry floor below wall air conditioner, tidy dedicated outlet area with no loose cords, simple stable step stool nearby, Japanese apartment, no text",
+      "seed": 202606029201,
+      "prompt_id": "06b30803-0b0a-4a64-b527-c316772cd887",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_regen_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_note": "regenerated after visual QA rejected unsafe cord/text/number risk"
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-aircon-filter-flow-2026-02.png",
+      "bytes": 1540262,
+      "prompt": "hands holding clean air conditioner filter near sink area, no logos, no text",
+      "seed": 202606020202,
+      "prompt_id": "66284a43-872e-4b49-8f3d-18919916dc83",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-aircon-filter-flow-2026-03.png",
+      "bytes": 1221579,
+      "prompt": "short air conditioner test run scene with curtain and clear airflow, no screen text",
+      "seed": 202606020203,
+      "prompt_id": "9404c5a1-03cf-4a50-9212-d9c84b8b2a1b",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-aircon-filter-flow-2026-04.png",
+      "bytes": 2221038,
+      "prompt": "balcony outdoor unit with clear space around it, no brand marks, no labels",
+      "seed": 202606020204,
+      "prompt_id": "cd1bb82e-65c9-4175-945b-37dffd45ab21",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-aircon-filter-flow-2026-05.png",
+      "bytes": 1599297,
+      "prompt": "minimal Japanese home summer prep with fan, curtain, clean floor, no text",
+      "seed": 202606020205,
+      "prompt_id": "51bf29f1-e06d-4aad-bd12-979f2ed93a75",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    }
+  ],
+  "visual_qa": "PASS after contact-sheet inspection; regenerated rejected images where needed",
+  "qa_regenerated": [
+    {
+      "site": "kurashinotes",
+      "suffix": "01",
+      "seed": 202606029201
+    },
+    {
+      "site": "learnpathhub",
+      "suffix": "02",
+      "seed": 202606029302
+    },
+    {
+      "site": "learnpathhub",
+      "suffix": "04",
+      "seed": 202606029304
+    },
+    {
+      "site": "learnpathhub",
+      "suffix": "04",
+      "seed": 202606029404,
+      "round": 2
+    }
+  ]
+}
