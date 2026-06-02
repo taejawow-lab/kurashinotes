@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-03",
+  "site": "kurashinotes",
+  "slug": "tsuyu-sentakuso-haisuikou-nioi-reset-flow",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-washer-drain-odor-flow-2026-hero.png",
+      "bytes": 1456661,
+      "prompt": "Japanese apartment laundry area with washing machine, clean floor, detergent bottles turned away, no text",
+      "seed": 202606030200,
+      "prompt_id": "e0e231c9-a00d-4d8e-b9c2-dfc9a9109a7f",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-washer-drain-odor-flow-2026-01.png",
+      "bytes": 1634271,
+      "prompt": "Japanese apartment laundry room with open window ventilation, washing machine side, plain empty plastic basket and folded towel, no bottles, no labels, no text, clean safe utility room photo",
+      "seed": 202606039701,
+      "prompt_id": "d1d167b2-d7ef-4a84-86d6-8f0d166215f7",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_replacement": true,
+      "qa_replacement_final": true,
+      "qa_replacement_final2": true
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-washer-drain-odor-flow-2026-02.png",
+      "bytes": 1676492,
+      "prompt": "washing machine drum inspection with blank towel and soft light, no brand marks",
+      "seed": 202606030202,
+      "prompt_id": "5fcfaf66-0ee4-4ece-89e5-52a2053e541a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-washer-drain-odor-flow-2026-03.png",
+      "bytes": 1722961,
+      "prompt": "laundry washer drain trap area on clean floor with lint removed, parts arranged on plain cloth, no toilet, no labels, no text, realistic Japanese apartment utility area",
+      "seed": 202606039003,
+      "prompt_id": "3ca7d75a-ca35-4e3b-813e-755c7ca45498",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_replacement": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-washer-drain-odor-flow-2026-04.png",
+      "bytes": 1420383,
+      "prompt": "indoor drying rack with spaced towels and airflow, no writing",
+      "seed": 202606030204,
+      "prompt_id": "6d79e3b5-0bac-47af-9dac-f27b7a803c86",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-washer-drain-odor-flow-2026-05.png",
+      "bytes": 1724158,
+      "prompt": "weekly laundry reset scene with basket, clean floor, closed washer, no text",
+      "seed": 202606030205,
+      "prompt_id": "d73bff23-5c03-4fc4-a8bc-39c65bf43f28",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260603-kurashinotes-contact-sheet-final.jpg",
+  "visual_qa": "final contact sheet reviewed after third QA pass; images with readable labels or loose cords were replaced",
+  "adsense_readiness": "source-backed helpful content, practical tables/checklists, no affiliate filler, AI image provenance committed"
+}
