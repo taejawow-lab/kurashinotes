@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-04",
+  "site": "kurashinotes",
+  "slug": "natsumae-senpuki-circulator-souji-okikata-flow",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-fan-circulator-20260604-hero.png",
+      "bytes": 1571818,
+      "prompt": "Japanese apartment room with clean pedestal fan and compact air circulator on floor, summer preparation scene, no text no logo",
+      "seed": 202606050742,
+      "prompt_id": "82b82fa2-726d-407a-94e5-7445582ddf5a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-fan-circulator-20260604-01.png",
+      "bytes": 1622283,
+      "prompt": "unplugged pedestal fan being dusted with plain cloth, fan grille visible, hands mostly hidden, no text no logo",
+      "seed": 202606050409,
+      "prompt_id": "1b35dbe0-5c22-40f7-aa7e-f1380d98b2c6",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-fan-circulator-20260604-02.png",
+      "bytes": 1497196,
+      "prompt": "compact air circulator placed in corner of Japanese room to move air across open space, no text no logo",
+      "seed": 202606050410,
+      "prompt_id": "748318f8-2a58-4b60-a4e1-208a78b48c60",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-fan-circulator-20260604-03.png",
+      "bytes": 1155838,
+      "prompt": "freestanding pedestal fan in Japanese room, power cord neatly routed along baseboard away from walkway, standard safe wall outlet, no exposed wiring, no wall mounted fan, no text no logo",
+      "seed": 202606049777,
+      "prompt_id": "ed7c74af-a240-4182-b200-3917936f00ff",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_kurashi_03b_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true,
+      "qa_note": "second regeneration removed unsafe wall-mounted exposed-wire image"
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-fan-circulator-20260604-04.png",
+      "bytes": 1567739,
+      "prompt": "quiet bedroom with pedestal fan placed away from curtains and bedding, clear walking path, no text no logo",
+      "seed": 202606050412,
+      "prompt_id": "2f9b8802-03a7-4a25-8d92-0ce96281a64d",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-fan-circulator-20260604-05.png",
+      "bytes": 1673280,
+      "prompt": "family room for elderly person with clean fan, water glass, remote control blank, safe clear path, no text no logo",
+      "seed": 202606050413,
+      "prompt_id": "a15f6c6f-f2ab-4fd6-bf98-7b6a706ba6a3",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260604-kurashinotes-contact-sheet-final2.jpg",
+  "visual_qa": "final contact sheet acceptable after regenerating unsafe 03 image",
+  "adsense_readiness": "helpful source-backed guide, practical tables/checklists, no affiliate filler, AI image provenance committed"
+}
