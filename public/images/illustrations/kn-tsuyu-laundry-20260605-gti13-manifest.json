@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-05",
+  "site": "kurashinotes",
+  "slug": "tsuyu-heyaboshi-joshitsu-kabi-yobou-flow",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-tsuyu-laundry-20260605-hero.png",
+      "bytes": 1552403,
+      "prompt": "Japanese apartment rainy season indoor laundry drying rack with shirts and towels spaced apart, compact dehumidifier on dry floor away from wall, safe cord tucked along wall, no text no logos, realistic editorial photo",
+      "seed": 202606059003,
+      "prompt_id": "aafd3123-40aa-41e7-adf6-5ace83a460e2",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-tsuyu-laundry-20260605-01.png",
+      "bytes": 1635866,
+      "prompt": "close view of indoor laundry rack in Japanese room, garments spaced with air gaps, rainy window background, no text no logos, realistic editorial photo",
+      "seed": 202606059004,
+      "prompt_id": "c4643ae2-b204-431a-aa27-6abd22298998",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-tsuyu-laundry-20260605-02.png",
+      "bytes": 1664993,
+      "prompt": "compact dehumidifier safely placed in Japanese room near indoor laundry, water tank closed, dry floor, safe cord away from walkway, no text no logos, realistic editorial photo",
+      "seed": 202606059005,
+      "prompt_id": "f98b0b3a-f62e-46ee-867c-bd02c2ceb6ed",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-tsuyu-laundry-20260605-03.png",
+      "bytes": 1569336,
+      "prompt": "Japanese living room with indoor laundry rack positioned away from wall and fan creating airflow path, no readable labels, no text, realistic editorial photo",
+      "seed": 202606059006,
+      "prompt_id": "db48da47-fd1d-43b6-bff7-584b88dae711",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-tsuyu-laundry-20260605-04.png",
+      "bytes": 1510501,
+      "prompt": "clean Japanese bathroom after laundry drying, person wiping water from wall with plain cloth, ventilation area visible, no text no logos, realistic editorial photo",
+      "seed": 202606059007,
+      "prompt_id": "04ae6b4d-e700-48fb-bf75-916da8a33376",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-tsuyu-laundry-20260605-05.png",
+      "bytes": 1456761,
+      "prompt": "Japanese closet and wall corner moisture check, plain storage bins, small blank hygrometer shape with no numbers, no readable text no logos, realistic editorial photo",
+      "seed": 202606059008,
+      "prompt_id": "7fbf4b11-b05c-4082-8e57-f155099e0af4",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260605-kurashinotes-contact-sheet.jpg",
+  "visual_qa": "final contact sheet regenerated after replacing text/wrong-subject/unsafe-cord failures",
+  "adsense_readiness": "helpful source-backed guide, practical tables/checklists, no affiliate filler, AI image provenance committed"
+}
