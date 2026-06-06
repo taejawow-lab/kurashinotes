@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-07",
+  "site": "kurashinotes",
+  "slug": "natsumae-aircon-shiunten-denkidai-checklist",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-aircon-shiunten-20260607-hero.png",
+      "bytes": 1520772,
+      "prompt": "Japanese apartment living room with wall mounted split air conditioner being test run before summer, remote on table blank screen, no text no logos",
+      "seed": 202606079147,
+      "prompt_id": "9228a27b-e577-4de1-a0b4-1081330c107c",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_regen_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      },
+      "qa_note": "regenerated after contact-sheet visual QA"
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-aircon-shiunten-20260607-01.png",
+      "bytes": 1397560,
+      "prompt": "close view of clean wall mounted split air conditioner in Japanese home above sofa, summer preparation, no text no logos",
+      "seed": 202606079120,
+      "prompt_id": "c5056177-6b10-4ea6-abb7-bb11374396f7",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_regen_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      },
+      "qa_note": "regenerated after contact-sheet visual QA"
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-aircon-shiunten-20260607-02.png",
+      "bytes": 1493325,
+      "prompt": "adult safely cleaning removable air conditioner filter at table, no ladder, no text no logos",
+      "seed": 202606079092,
+      "prompt_id": "48d4df0e-8c5a-404d-8082-05cc20fbdb2f",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_regen_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      },
+      "qa_note": "regenerated after contact-sheet visual QA"
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-aircon-shiunten-20260607-03.png",
+      "bytes": 2127929,
+      "prompt": "Japanese apartment balcony with outdoor air conditioner unit and clear airflow space, safe tidy scene, no text no logos",
+      "seed": 202606079119,
+      "prompt_id": "a56d4e1e-d4cb-4415-973f-d194297cdf30",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_regen_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      },
+      "qa_note": "regenerated after contact-sheet visual QA"
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-aircon-shiunten-20260607-04.png",
+      "bytes": 1501878,
+      "prompt": "family in Japanese living room checking comfort during air conditioner test run with blank notepad, no numbers no text",
+      "seed": 202606079118,
+      "prompt_id": "cb744603-7cb8-4b57-8e16-1d8ae3ec3250",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_regen_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      },
+      "qa_note": "regenerated after contact-sheet visual QA"
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-aircon-shiunten-20260607-05.png",
+      "bytes": 1052483,
+      "prompt": "minimal desk with blank white paper, plain unmarked round object, and air conditioner remote turned face down, electricity planning, no calculator, no numbers, no text",
+      "seed": 202606079502,
+      "prompt_id": "c6c954b0-0f93-41f9-85a5-00f3d5005def",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_regen2_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      },
+      "qa_note": "regenerated second pass after visual QA"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260607-kurashinotes-contact-sheet-final2.jpg",
+  "visual_qa": "final2 visual QA pass after replacing off-topic/text-number images",
+  "adsense_readiness": "source-backed practical guide, 8 citations, internal link, FAQ/schema, no affiliate filler, GTI13 provenance committed"
+}
