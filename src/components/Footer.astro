@@ -1,161 +1,25 @@
 ---
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
+import KurashiMark from './KurashiMark.astro';
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'kurashinotes';
 const description = import.meta.env.PUBLIC_SITE_DESCRIPTION || '';
-const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
-const tagline = import.meta.env.PUBLIC_SITE_TAGLINE || '';
 const currentYear = new Date().getFullYear();
-const lang = import.meta.env.PUBLIC_SITE_LANG || 'ja';
-
-const aiDisclosure = lang === 'ko'
-  ? '본 사이트의 콘텐츠는 AI 도구의 보조를 받아 작성됩니다. 모든 데이터는 1차 자료에서 검증되며, 본문 인용 링크로 직접 확인할 수 있습니다.'
-  : lang === 'ja'
-    ? '本サイトのコンテンツはAIツールの補助を受けて作成しています。掲載するデータは一次資料で確認し、本文中の出典リンクから直接検証できるようにしています。'
-    : 'Content on this site is produced with AI assistance. All data points are verified against primary sources, and all sources are linked inline for direct verification.';
-
-const affiliateDisclosure = lang === 'ko'
-  ? '쿠팡파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다.'
-  : lang === 'ja'
-    ? 'Amazonアソシエイトおよびその他のアフィリエイトプログラムにより、対象商品の購入で当サイトが紹介料を受け取る場合があります。'
-    : 'As an Amazon Associate and other affiliate partner, we earn from qualifying purchases.';
-
-const labels = lang === 'ja'
-  ? {
-      colophon: '制作情報',
-      sections: 'セクション',
-      home: 'ホーム',
-      about: 'サイトについて',
-      editorial: '編集方針',
-      editorialProcess: '制作プロセス',
-      editorialStandards: '編集基準',
-      legal: '法務・開示',
-      affiliate: 'アフィリエイト開示',
-      privacy: 'プライバシー',
-      contact: 'お問い合わせ',
-      follow: 'フォロー',
-      disclosure: '開示情報',
-      rights: '無断転載を禁じます',
-      setIn: '使用書体',
-      builtWith: 'Astroで構築',
-    }
-  : {
-      colophon: 'Colophon',
-      sections: 'Sections',
-      home: 'Home',
-      about: 'About',
-      editorial: 'Editorial',
-      editorialProcess: 'Editorial Process',
-      editorialStandards: 'Editorial Standards',
-      legal: 'Legal',
-      affiliate: 'Affiliate',
-      privacy: 'Privacy',
-      contact: 'Contact',
-      follow: 'Follow',
-      disclosure: 'Disclosure',
-      rights: 'All rights reserved',
-      setIn: 'Set in',
-      builtWith: 'Built with Astro',
-    };
+const followLinks = [
+  { label: 'Pinterest', href: import.meta.env.PUBLIC_SITE_PINTEREST },
+  { label: 'Instagram', href: import.meta.env.PUBLIC_SITE_INSTAGRAM },
+  { label: 'YouTube', href: import.meta.env.PUBLIC_SITE_YOUTUBE },
+].filter((x)=>x.href);
 ---
-
-<footer class="border-t border-border mt-24 md:mt-32 relative overflow-hidden">
-  <!-- 미세 grain texture -->
-  <div class="absolute inset-0 pointer-events-none opacity-[0.04]" aria-hidden="true"
-       style="background-image: linear-gradient(to right, rgb(var(--color-foreground)) 1px, transparent 1px); background-size: 64px 100%;"></div>
-
-  <div class="container mx-auto px-6 md:px-10 pt-20 md:pt-28 pb-12 relative">
-    <!-- masthead — 거대 wordmark -->
-    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 mb-16 md:mb-20 items-end">
-      <div class="col-span-12 md:col-span-8">
-        {edition && (
-          <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-4">
-            {edition} · {labels.colophon}
-          </p>
-        )}
-        <h2
-          class="text-[18vw] md:text-[12vw] lg:text-[10vw] font-bold leading-[0.85] tracking-[-0.03em] mb-4"
-          style="font-family: var(--font-display);"
-        >
-          {siteName}
-        </h2>
-        {tagline && (
-          <p class="text-base md:text-lg text-muted-foreground max-w-md">
-            {tagline}
-          </p>
-        )}
-      </div>
-      <div class="col-span-12 md:col-span-4 md:text-right mt-8 md:mt-0">
-        <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground font-mono mb-2">
-          MMXXVI
-        </p>
-        <p class="text-sm text-muted-foreground max-w-xs md:ml-auto">
-          {description}
-        </p>
+<footer class="mt-24 border-t" style="border-color:var(--line); background:var(--paper);">
+  <div class="wrap py-16 md:py-20">
+    <div class="grid gap-10 md:grid-cols-[1fr_2fr]">
+      <div><div class="mb-5 flex items-center gap-3 text-[var(--ink)]"><KurashiMark class="h-11 w-11"/><div><p class="text-2xl font-black tracking-[.08em]">暮らしノート</p><p class="text-[9px] font-bold uppercase tracking-[.34em] text-[var(--ink-soft)]">KURASHINOTES</p></div></div><p class="max-w-sm text-sm leading-8 text-[var(--ink-soft)]">{description}</p></div>
+      <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+        <div><h4 class="k-label mb-4">Sections</h4><ul class="space-y-3 text-sm text-[var(--ink-soft)]"><li><a href="/">ホーム</a></li><li><a href="/posts/">記事一覧</a></li><li><a href="/categories/">カテゴリー</a></li><li><a href="/search/">検索</a></li></ul></div>
+        <div><h4 class="k-label mb-4">About</h4><ul class="space-y-3 text-sm text-[var(--ink-soft)]"><li><a href="/about/">サイトについて</a></li><li><a href="/editorial-process/">制作プロセス</a></li><li><a href="/editorial-standards/">編集基準</a></li><li><a href="/contact/">お問い合わせ</a></li></ul></div>
+        <div><h4 class="k-label mb-4">Legal</h4><ul class="space-y-3 text-sm text-[var(--ink-soft)]"><li><a href="/privacy/">プライバシー</a></li><li><a href="/terms/">利用規約</a></li><li><a href="/cookie-policy/">Cookie</a></li><li><a href="/affiliate-disclosure/">広告開示</a></li></ul></div>
+        <div><h4 class="k-label mb-4">Follow</h4>{followLinks.length ? <ul class="space-y-3 text-sm text-[var(--ink-soft)]">{followLinks.map((item)=><li><a href={item.href}>{item.label} →</a></li>)}</ul> : <p class="text-sm leading-7 text-[var(--ink-soft)]">公式SNSは準備中です。お問い合わせはContactからお願いします。</p>}</div>
       </div>
     </div>
-
-    <!-- nav 그리드 — 더 미니멀 -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pt-12 md:pt-16 border-t border-border">
-      <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.sections}</h4>
-        <ul class="space-y-3 text-sm">
-          <li><a href="/" class="hover:underline underline-offset-4 decoration-from-font">{labels.home}</a></li>
-          <li><a href="/about" class="hover:underline underline-offset-4 decoration-from-font">{labels.about}</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.editorial}</h4>
-        <ul class="space-y-3 text-sm">
-          <li><a href="/editorial-process" class="hover:underline underline-offset-4 decoration-from-font">{labels.editorialProcess}</a></li>
-          <li><a href="/editorial-standards" class="hover:underline underline-offset-4 decoration-from-font">{labels.editorialStandards}</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.legal}</h4>
-        <ul class="space-y-3 text-sm">
-          <li><a href="/privacy" class="hover:underline underline-offset-4 decoration-from-font">Privacy</a></li>
-          <li><a href="/terms" class="hover:underline underline-offset-4 decoration-from-font">Terms</a></li>
-          <li><a href="/cookie-policy" class="hover:underline underline-offset-4 decoration-from-font">Cookie Policy</a></li>
-          <li><a href="/disclaimer" class="hover:underline underline-offset-4 decoration-from-font">Disclaimer</a></li>
-          <li><a href="/affiliate-disclosure" class="hover:underline underline-offset-4 decoration-from-font">{labels.affiliate}</a></li>
-          <li><a href="/privacy" class="hover:underline underline-offset-4 decoration-from-font">{labels.privacy}</a></li>
-          <li><a href="/contact" class="hover:underline underline-offset-4 decoration-from-font">{labels.contact}</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-5">{labels.follow}</h4>
-        <ul class="space-y-3 text-sm">
-          <li><a href={import.meta.env.PUBLIC_SITE_PINTEREST || '#'} class="hover:underline underline-offset-4">Pinterest →</a></li>
-          <li><a href={import.meta.env.PUBLIC_SITE_INSTAGRAM || '#'} class="hover:underline underline-offset-4">Instagram →</a></li>
-          <li><a href={import.meta.env.PUBLIC_SITE_YOUTUBE || '#'} class="hover:underline underline-offset-4">YouTube →</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- AI disclosure — editorial styled -->
-    <div class="mt-16 pt-8 border-t border-border">
-      <div class="grid grid-cols-12 gap-6 md:gap-8">
-        <div class="col-span-12 md:col-span-4">
-          <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono">
-            ¶ {labels.disclosure}
-          </p>
-        </div>
-        <div class="col-span-12 md:col-span-8 space-y-3 text-sm text-foreground/70 leading-relaxed">
-          <p>{aiDisclosure}</p>
-          <p>{affiliateDisclosure}</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- bottom rail -->
-    <div class="mt-12 pt-6 border-t border-border flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono">
-      <span>© {currentYear} {siteName} · {labels.rights}</span>
-      <span>{labels.setIn}{' '}
-        <span style="font-family: var(--font-display);" class="normal-case tracking-tight text-sm">
-          {/* fontDisplay 이름은 CSS variable이라 표시 어려우니 일반 표기 */}
-          serif &amp; sans
-        </span>
-        {' '} · {labels.builtWith}
-      </span>
-    </div>
+    <div class="mt-12 border-t pt-6 text-xs leading-7 text-[var(--ink-faint)]" style="border-color:var(--line);"><p>本サイトのコンテンツはAIツールの補助を受けて作成しています。掲載するデータは一次資料で確認し、本文中の出典リンクから直接検証できるようにしています。</p><p class="mt-2">© {currentYear} {siteName} · 無断転載を禁じます · Built with Astro</p></div>
   </div>
 </footer>

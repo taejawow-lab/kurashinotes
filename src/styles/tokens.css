@@ -1,35 +1,68 @@
-/* kurashinotes.com design tokens — auto-generated 2026-05-08T05:39:48.184Z */
+/* Kurashinotes MUJI-inspired editorial redesign tokens */
 :root {
-  --color-background: 251 248 242;
-  --color-foreground: 42 36 30;
-  --color-primary: 232 224 213;
-  --color-primary-foreground: 61 53 45;
-  --color-accent: 139 107 79;
+  --color-background: 251 248 243;
+  --color-foreground: 43 39 34;
+  --color-primary: 178 92 60;
+  --color-primary-foreground: 255 255 255;
+  --color-accent: 178 92 60;
   --color-accent-foreground: 255 255 255;
-  --color-muted: 246 243 237;
-  --color-muted-foreground: 82 76 70;
-  --color-card: 251 248 242;
-  --color-card-foreground: 42 36 30;
-  --color-border: 122 116 110;
-  --color-input: 117 111 105;
-  --color-ring: 232 224 213;
-  --font-heading: "Noto Sans JP", system-ui, sans-serif;
-  --font-body: "Inter", system-ui, sans-serif;
-  --font-display: "Shippori Mincho B1", "Noto Serif JP", serif;
-  --font-mono: "JetBrains Mono", "Fira Code", monospace;
-  --radius: 0px;
+  --color-muted: 239 234 225;
+  --color-muted-foreground: 111 103 93;
+  --color-card: 255 255 255;
+  --color-card-foreground: 43 39 34;
+  --color-border: 228 221 209;
+  --color-input: 228 221 209;
+  --color-ring: 178 92 60;
+
+  --paper: #FBF8F3;
+  --canvas: #EFEAE1;
+  --card: #FFFFFF;
+  --ink: #2B2722;
+  --ink-soft: #6F675D;
+  --ink-faint: #A89F92;
+  --line: #E4DDD1;
+  --line-soft: #EFE9DE;
+  --terra: #B25C3C;
+  --terra-deep: #8E462C;
+  --terra-soft: #E7C9B8;
+  --terra-wash: #F4E7DE;
+  --spring: #C98E94;
+  --summer: #6E94A0;
+  --autumn: #C08440;
+  --winter: #8693A0;
+
+  --font-heading: 'Zen Kaku Gothic New', 'Noto Sans JP', system-ui, sans-serif;
+  --font-body: 'Zen Kaku Gothic New', 'Hanken Grotesk', 'Noto Sans JP', system-ui, sans-serif;
+  --font-display: 'Shippori Mincho', 'Shippori Mincho B1', 'Noto Serif JP', serif;
+  --font-mono: 'JetBrains Mono', 'Hanken Grotesk', monospace;
+  --font-latin: 'Hanken Grotesk', system-ui, sans-serif;
+  --radius: 14px;
 }
 [data-theme='dark'] {
-  --color-background: 26 23 21;
-  --color-foreground: 232 226 216;
-  --color-primary: 184 172 157;
-  --color-primary-foreground: 61 53 45;
-  --color-accent: 139 107 79;
-  --color-accent-foreground: 255 255 255;
-  --color-muted: 34 31 29;
-  --color-muted-foreground: 202 196 186;
-  --color-card: 31 28 26;
-  --color-card-foreground: 232 226 216;
-  --color-border: 172 166 156;
-  --color-input: 167 161 151;
+  --color-background: 30 28 25;
+  --color-foreground: 239 234 225;
+  --color-primary: 218 132 91;
+  --color-primary-foreground: 30 28 25;
+  --color-accent: 218 132 91;
+  --color-accent-foreground: 30 28 25;
+  --color-muted: 43 39 34;
+  --color-muted-foreground: 205 196 183;
+  --color-card: 36 33 30;
+  --color-card-foreground: 239 234 225;
+  --color-border: 82 74 66;
+  --color-input: 82 74 66;
+  --color-ring: 218 132 91;
+
+  --paper: #1E1C19;
+  --canvas: #181613;
+  --card: #24211E;
+  --ink: #EFEAE1;
+  --ink-soft: #CDC4B7;
+  --ink-faint: #928878;
+  --line: #524A42;
+  --line-soft: #39332D;
+  --terra: #DA845B;
+  --terra-deep: #F0B08D;
+  --terra-soft: #7C4937;
+  --terra-wash: #332720;
 }

@@ -128,6 +128,18 @@ const finalSchema = schema || defaultSchema;
     <script defer src="https://taekm33.org/assets/taekm33-analytics-v4.js"></script>
 
 
+    <script is:inline>
+      (function () {
+        const key = 'kn-bookmarks';
+        const read = () => { try { return JSON.parse(localStorage.getItem(key) || '[]'); } catch { return []; } };
+        const write = (items) => localStorage.setItem(key, JSON.stringify(items.slice(0, 60)));
+        const asElement = (target) => target instanceof Element ? target : target?.parentElement;
+        const update = () => { const items = read(); document.querySelectorAll('[data-bookmark]').forEach((btn) => { const url = btn.getAttribute('data-url'); const saved = items.some((item) => item.url === url); btn.setAttribute('data-saved', saved ? 'true' : 'false'); btn.textContent = saved ? '♥' : '♡'; }); };
+        document.addEventListener('click', (event) => { const target = asElement(event.target); const btn = target?.closest('[data-bookmark]'); if (btn) { event.preventDefault(); event.stopPropagation(); const url = btn.getAttribute('data-url'); const title = btn.getAttribute('data-title') || document.title; const items = read(); const i = items.findIndex((item) => item.url === url); if (i >= 0) items.splice(i, 1); else items.unshift({ url, title, savedAt: new Date().toISOString() }); write(items); update(); return; } const drawer = target?.closest('[data-bookmark-drawer]'); if (drawer) { const items = read(); const list = items.length ? items.map((item) => `• ${item.title}\\n  ${location.origin}${item.url}`).join('\\n') : '保存した記事はまだありません。'; alert('保存した記事\\n\\n' + list); } });
+        document.addEventListener('DOMContentLoaded', update); update();
+      })();
+    </script>
+
     <!-- Theme toggle script (FOUC 방지) -->
     <script is:inline>
       (function () {

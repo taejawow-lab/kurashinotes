@@ -1,63 +1,26 @@
 ---
-export interface Props {
-  title: string;
-  description: string;
-  href: string;
-  image?: string;
-  category?: string;
-  pubDate: Date;
-  readingTime?: number;
-  variant?: 'feature' | 'standard';
-  index?: number;
-}
-
-const { title, description, href, image, category, pubDate, readingTime, variant = 'standard', index = 0 } = Astro.props;
-
-const dateline = pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).toUpperCase();
-const itemNum = String(index + 1).padStart(2, '0');
+export interface Props { title:string; description:string; href:string; image?:string; category?:string; pubDate:Date; readingTime?:number; variant?:'feature'|'standard'; index?:number; }
+const { title, description, href, image, category, pubDate, readingTime = 7, variant='standard', index=0 } = Astro.props;
+const colors=['','motif-blue','','motif-green','motif-pink'];
+const motif=colors[index % colors.length];
+const date=pubDate.toLocaleDateString('ja-JP', { year:'numeric', month:'2-digit', day:'2-digit' }).replaceAll('/','.');
 ---
-
-<article class={`group h-full ${variant === 'feature' ? 'md:col-span-2' : ''}`}>
-  <a href={href} class="editorial-card block h-full rounded-[1.35rem] border border-border/70 bg-card/88 p-4 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/10 focus-visible:outline-ring sm:p-5">
-    <div class="flex items-center gap-3 mb-4 text-[10px] uppercase tracking-[0.18em] font-mono text-muted-foreground">
-      <span>№ {itemNum}</span>
-      <span class="h-px w-6 bg-border"></span>
-      {category && (
-        <span class="rounded-full bg-primary/10 px-2 py-1 text-primary font-semibold">{category}</span>
+<article class={`group ${variant === 'feature' ? 'md:col-span-2' : ''}`}>
+  <div class="relative">
+    <button type="button" data-bookmark data-title={title} data-url={href.endsWith('/') ? href : `${href}/`} class="absolute right-4 top-4 z-20 grid h-10 w-10 place-items-center rounded-full bg-[rgba(251,248,243,.82)] text-[var(--ink-soft)] backdrop-blur hover:text-[var(--terra)]" aria-label={`保存 ${title}`}>♡</button>
+    <a href={href.endsWith('/') ? href : `${href}/`} class="block no-underline">
+      {image ? (
+        <div class={`motif-field ${motif} ${variant === 'feature' ? 'aspect-[16/10]' : 'aspect-[3/2]'} mb-5`}>
+          <img src={image} alt={title} loading="lazy" decoding="async" class="h-full w-full object-cover opacity-[.42] mix-blend-multiply transition-transform duration-700 group-hover:scale-[1.025]" />
+          {category && <span class="absolute bottom-5 left-5 z-10 rounded-full bg-[var(--paper)] px-4 py-2 text-xs font-bold text-[var(--ink)] shadow-sm">{category}</span>}
+        </div>
+      ) : (
+        <div class={`motif-field ${motif} ${variant === 'feature' ? 'aspect-[16/10]' : 'aspect-[3/2]'} mb-5`}>{category && <span class="absolute bottom-5 left-5 z-10 rounded-full bg-[var(--paper)] px-4 py-2 text-xs font-bold text-[var(--ink)] shadow-sm">{category}</span>}</div>
       )}
-    </div>
-
-    {image && (
-      <div class={`${variant === 'feature' ? 'aspect-[16/10]' : 'aspect-[4/3]'} overflow-hidden mb-5 relative rounded-2xl bg-muted ring-1 ring-border/50`}>
-        {variant === 'feature' && (
-          <div class="absolute inset-0 bg-accent/10 -rotate-1 scale-95" aria-hidden="true"></div>
-        )}
-        <img
-          src={image}
-          alt={title}
-          loading="lazy"
-          decoding="async"
-          class="relative w-full h-full object-cover transition-all duration-700 group-hover:scale-[1.035]"
-        />
-      </div>
-    )}
-
-    <h3
-      class={`${variant === 'feature' ? 'text-3xl md:text-4xl' : 'text-xl md:text-2xl'} font-bold mb-3 leading-[1.12] tracking-[-0.015em] text-balance group-hover:text-primary transition-colors duration-300`}
-      style="font-family: var(--font-display);"
-    >
-      {title}
-    </h3>
-
-    <p class="text-foreground/70 leading-relaxed mb-5 line-clamp-3 text-[15px]">
-      {description}
-    </p>
-
-    <div class="mt-auto flex items-center justify-between gap-3 text-[11px] uppercase tracking-[0.16em] font-mono text-muted-foreground pt-4 border-t border-border/70">
-      <time datetime={pubDate.toISOString()}>{dateline}</time>
-      <span class="inline-flex min-h-9 items-center gap-2 rounded-full bg-muted px-3 text-foreground/80 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-        Read <span aria-hidden="true">→</span>
-      </span>
-    </div>
-  </a>
+      <p class="mb-3 text-xs font-bold uppercase tracking-[.22em] text-[var(--terra)]" style="font-family:var(--font-latin);">{category || 'Living'}</p>
+      <h3 class={`${variant === 'feature' ? 'text-3xl md:text-4xl' : 'text-xl md:text-2xl'} mb-3 font-bold leading-[1.55] tracking-[.05em] text-[var(--ink)] transition-colors group-hover:text-[var(--terra-deep)]`}>{title}</h3>
+      <p class="line-clamp-3 text-[15px] leading-8 text-[var(--ink-soft)]">{description}</p>
+      <div class="mt-5 flex items-center gap-2 text-xs text-[var(--ink-faint)]"><span>◷</span><span>{readingTime} min</span><span>•</span><time datetime={pubDate.toISOString()}>{date}</time></div>
+    </a>
+  </div>
 </article>

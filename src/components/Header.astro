@@ -1,73 +1,42 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
-const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
-
+import KurashiMark from './KurashiMark.astro';
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'kurashinotes';
 const navItems = [
-  { label: '記事', href: '/posts/' },
-  { label: 'カテゴリー', href: '/categories/' },
-  { label: '検索', href: '/search/' },
-  { label: 'サイトについて', href: '/about' },
-  { label: '編集方針', href: '/editorial-process' },
+  { label: 'ホーム', href: '/' },
+  { label: '記事一覧', href: '/posts/' },
+  { label: '季節', href: '/categories/' },
+  { label: 'このサイトについて', href: '/about/' },
 ];
 ---
-
-<!-- modern editorial header: token-driven, mobile discoverable, no client JS -->
-<header class="sticky top-0 z-50 backdrop-blur-xl bg-background/90 border-b border-border/70 shadow-[0_1px_0_rgba(15,23,42,0.03)]">
-  {edition && (
-    <div class="border-b border-border/50 bg-muted/25">
-      <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-8 flex items-center justify-between gap-3 text-[10px] uppercase tracking-[0.22em] text-muted-foreground font-mono">
-        <span class="truncate">{edition}</span>
-        <span class="hidden sm:inline">一次資料にもとづく暮らしの読みもの</span>
-      </div>
-    </div>
-  )}
-
-  <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-[68px] md:min-h-20 flex items-center justify-between gap-4">
-    <a href="/" class="group flex min-w-0 items-center gap-3 rounded-md py-2 focus-visible:outline-ring" aria-label={`${siteName} ホーム`}>
-      <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm ring-1 ring-border/30" aria-hidden="true">
-        <span class="text-sm font-bold" style="font-family: var(--font-display);">{siteName.slice(0, 1).toUpperCase()}</span>
-      </span>
-      <span
-        class="truncate text-2xl md:text-3xl font-bold tracking-[-0.025em] leading-none transition-colors group-hover:text-primary"
-        style="font-family: var(--font-display);"
-      >
-        {siteName}
+<header class="sticky top-0 z-50 border-b backdrop-blur-xl" style="border-color: var(--line); background: color-mix(in srgb, var(--paper) 88%, transparent);">
+  <div class="wrap flex min-h-[72px] items-center justify-between gap-6">
+    <a href="/" class="group flex min-w-0 items-center gap-3 text-[var(--ink)]" aria-label={`${siteName} ホーム`}>
+      <span class="grid h-10 w-10 shrink-0 place-items-center transition-colors group-hover:text-[var(--terra)]"><KurashiMark class="h-10 w-10" /></span>
+      <span class="min-w-0 leading-none">
+        <span class="block text-xl font-black tracking-[.08em] md:text-2xl" style="font-family: var(--font-heading);">暮らしノート</span>
+        <span class="mt-1 block text-[9px] font-bold uppercase tracking-[.34em] text-[var(--ink-soft)]" style="font-family: var(--font-latin);">KURASHINOTES</span>
       </span>
     </a>
-
-    <div class="flex items-center gap-3 md:gap-6">
-      <nav aria-label="主要ナビゲーション" class="hidden md:block">
-        <ul class="flex items-center gap-1 text-xs lg:text-sm uppercase tracking-[0.12em]">
-          {navItems.map((item) => (
-            <li>
-              <a
-                href={item.href}
-                class="rounded-full px-3 py-2 text-foreground/72 hover:bg-muted hover:text-foreground focus-visible:outline-ring transition-colors"
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <a href="/search/" class="hidden sm:inline-flex md:hidden min-h-10 items-center rounded-full border border-border bg-card px-4 text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 shadow-sm">
-        検索
+    <nav aria-label="主要ナビゲーション" class="hidden md:block">
+      <ul class="flex items-center gap-7 text-sm font-medium tracking-[.08em] text-[var(--ink)]">
+        {navItems.map((item) => <li><a class="hover:text-[var(--terra)] transition-colors" href={item.href}>{item.label}</a></li>)}
+      </ul>
+    </nav>
+    <div class="flex items-center gap-3 text-[var(--ink-soft)]">
+      <a href="/search/" class="grid h-11 w-11 place-items-center rounded-full hover:bg-[var(--terra-wash)] hover:text-[var(--terra-deep)]" aria-label="検索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </a>
+      <button type="button" data-bookmark-drawer class="hidden sm:grid h-11 w-11 place-items-center rounded-full hover:bg-[var(--terra-wash)] hover:text-[var(--terra-deep)]" aria-label="保存した記事">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none"><path d="M7 4.5h10v15l-5-3-5 3v-15Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      </button>
       <ThemeToggle />
     </div>
   </div>
-
-  <nav aria-label="モバイル主要ナビゲーション" class="md:hidden border-t border-border/55 bg-background/95">
-    <ul class="container mx-auto flex gap-2 overflow-x-auto px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] [-webkit-overflow-scrolling:touch]">
-      {navItems.map((item) => (
-        <li class="shrink-0">
-          <a href={item.href} class="inline-flex min-h-10 items-center rounded-full border border-border/70 bg-card px-4 text-foreground/75 shadow-sm transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-ring">
-            {item.label}
-          </a>
-        </li>
-      ))}
+  <nav aria-label="モバイル主要ナビゲーション" class="border-t md:hidden" style="border-color: var(--line);">
+    <ul class="wrap flex gap-2 overflow-x-auto py-2 text-xs font-medium tracking-[.08em] [-webkit-overflow-scrolling:touch]">
+      {navItems.map((item) => <li class="shrink-0"><a class="inline-flex min-h-10 items-center rounded-full border px-4" style="border-color:var(--line); background:var(--paper);" href={item.href}>{item.label}</a></li>)}
+      <li class="shrink-0"><a class="inline-flex min-h-10 items-center rounded-full border px-4" style="border-color:var(--line); background:var(--paper);" href="/search/">検索</a></li>
     </ul>
   </nav>
 </header>
