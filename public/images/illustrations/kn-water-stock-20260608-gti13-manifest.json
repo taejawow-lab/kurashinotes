@@ -1,0 +1,112 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsumae-bousai-mizu-stock-mitsumori-checklist",
+  "title": "夏前の水ストック見直し：買いすぎず足りない時を減らす防災チェック",
+  "date": "2026-06-08",
+  "gti13_only": true,
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "count_1536x864_png": 6,
+  "images": [
+    {
+      "file": "public/images/illustrations/kn-water-stock-20260608-hero.png",
+      "role": "hero",
+      "seed": 860608000,
+      "prompt": "Japanese apartment kitchen table with sealed bottled water stock arranged neatly for summer disaster prep no text no labels no logos",
+      "remote": {
+        "filename": "kn-water-stock-20260608-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "file": "public/images/illustrations/kn-water-stock-20260608-01.png",
+      "role": "01",
+      "seed": 860608001,
+      "prompt": "Japanese family reviewing water bottles and blank calendar cards on low table before summer no writing no logos",
+      "remote": {
+        "filename": "kn-water-stock-20260608-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "file": "public/images/illustrations/kn-water-stock-20260608-02.png",
+      "role": "02",
+      "seed": 860608002,
+      "prompt": "small apartment storage shelf with water bottles spaced safely at low height summer light no readable labels",
+      "remote": {
+        "filename": "kn-water-stock-20260608-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "file": "public/images/illustrations/kn-water-stock-20260608-03.png",
+      "role": "03",
+      "seed": 860608003,
+      "prompt": "kitchen sink area with clean empty water containers and plain towel emergency preparation no text no brand",
+      "remote": {
+        "filename": "kn-water-stock-20260608-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "file": "public/images/illustrations/kn-water-stock-20260608-04.png",
+      "role": "04",
+      "seed": 860608004,
+      "prompt": "entry closet with disaster backpack flashlight and water bottles tidy Japanese home no letters no numbers",
+      "remote": {
+        "filename": "kn-water-stock-20260608-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "file": "public/images/illustrations/kn-water-stock-20260608-05.png",
+      "role": "05",
+      "seed": 860608005,
+      "prompt": "person rotating bottled water stock with blank sticky notes and plain boxes realistic safe home scene no text",
+      "remote": {
+        "filename": "kn-water-stock-20260608-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ]
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/kn-water-stock-20260608-contact-sheet.jpg",
+  "visual_qa": {
+    "status": "passed",
+    "checks": [
+      "PIL open",
+      "1536x864 dimensions",
+      "contact sheet generated",
+      "negative prompt excludes text/logos/placeholders"
+    ]
+  }
+}
