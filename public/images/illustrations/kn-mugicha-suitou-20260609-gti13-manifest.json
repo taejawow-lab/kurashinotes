@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-09",
+  "site": "kurashinotes",
+  "slug": "natsu-mugicha-suitou-eisei-checklist",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public\\images\\illustrations\\kn-mugicha-suitou-20260609-hero.png",
+      "bytes": 1438382,
+      "prompt": "clear pitcher of cold barley tea next to reusable stainless water bottles in clean Japanese kitchen, no text, no logos",
+      "seed": 202606091000,
+      "prompt_id": "70b6ff09-3ed3-4d25-9050-7c8e327e7c25",
+      "raw_output": {
+        "filename": "hermes_batchb_20260609_regen_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, handwriting, printed pages, books, notebooks, watermark, logo, brand name, readable labels, screen text, fake user interface, distorted hands, deformed anatomy, unsafe food handling, raw meat, dirty kitchen, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public\\images\\illustrations\\kn-mugicha-suitou-20260609-01.png",
+      "bytes": 1301112,
+      "prompt": "barley tea pitcher cooling on clean refrigerator shelf beside plain containers, no labels, no text",
+      "seed": 202606091001,
+      "prompt_id": "c7d46e25-387b-46d4-98f0-cd049ceb6ba8",
+      "raw_output": {
+        "filename": "hermes_batchb_20260609_regen_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, handwriting, printed pages, books, notebooks, watermark, logo, brand name, readable labels, screen text, fake user interface, distorted hands, deformed anatomy, unsafe food handling, raw meat, dirty kitchen, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public\\images\\illustrations\\kn-mugicha-suitou-20260609-02.png",
+      "bytes": 1567832,
+      "prompt": "close view of reusable bottle cap gasket and bottle parts being washed in clean sink, no text",
+      "seed": 202606091002,
+      "prompt_id": "6a599017-ee3d-4b32-8864-1ce42e405592",
+      "raw_output": {
+        "filename": "hermes_batchb_20260609_regen_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, handwriting, printed pages, books, notebooks, watermark, logo, brand name, readable labels, screen text, fake user interface, distorted hands, deformed anatomy, unsafe food handling, raw meat, dirty kitchen, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public\\images\\illustrations\\kn-mugicha-suitou-20260609-03.png",
+      "bytes": 1482694,
+      "prompt": "entry table with reusable water bottle and small cooler bag prepared for summer outing, no text",
+      "seed": 202606091003,
+      "prompt_id": "df0371ef-acc3-4586-ac5f-a9455581b3d1",
+      "raw_output": {
+        "filename": "hermes_batchb_20260609_regen_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, handwriting, printed pages, books, notebooks, watermark, logo, brand name, readable labels, screen text, fake user interface, distorted hands, deformed anatomy, unsafe food handling, raw meat, dirty kitchen, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public\\images\\illustrations\\kn-mugicha-suitou-20260609-04.png",
+      "bytes": 1547117,
+      "prompt": "family table with plain cups of iced barley tea and clean pitcher, no readable objects",
+      "seed": 202606091004,
+      "prompt_id": "f2122391-03c0-4e6b-8d98-03119054ba84",
+      "raw_output": {
+        "filename": "hermes_batchb_20260609_regen_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, handwriting, printed pages, books, notebooks, watermark, logo, brand name, readable labels, screen text, fake user interface, distorted hands, deformed anatomy, unsafe food handling, raw meat, dirty kitchen, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public\\images\\illustrations\\kn-mugicha-suitou-20260609-05.png",
+      "bytes": 1593443,
+      "prompt": "night kitchen scene with washed tea pitcher and reusable bottles drying on rack, no labels no text",
+      "seed": 202606091005,
+      "prompt_id": "2f359f2f-b3f6-4d39-b4d4-1496f2a1d82f",
+      "raw_output": {
+        "filename": "hermes_batchb_20260609_regen_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, handwriting, printed pages, books, notebooks, watermark, logo, brand name, readable labels, screen text, fake user interface, distorted hands, deformed anatomy, unsafe food handling, raw meat, dirty kitchen, blurry, low resolution, generic stock art, placeholder"
+      }
+    }
+  ],
+  "contact_sheet": "\\\\wsl.localhost\\Ubuntu\\home\\taekm33\\blog-ops\\16-sites\\reports\\batch-b-20260609-kurashinotes-contact-sheet.jpg",
+  "visual_qa": "PASS after regeneration: barley tea/water bottle hygiene scenes match; no readable text/logos; no unsafe food handling.",
+  "adsense_readiness": "source-backed practical guide, 8 citations, internal links, FAQ/schema, no affiliate filler, GTI13 provenance committed"
+}
