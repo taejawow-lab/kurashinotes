@@ -1,0 +1,83 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsumae-amido-souji-mushi-yoke-kaze-flow-2026",
+  "date": "2026-06-11",
+  "assets": [
+    {
+      "filename": "kn-amido-souji-20260611-hero.png",
+      "render_url": "/images/illustrations/kn-amido-souji-20260611-hero.png",
+      "prompt": "Japanese apartment window screen cleaning with soft brush and cloth, no text no labels",
+      "seed": 6110200,
+      "prompt_id": "55ff49d1-2ba1-4808-8e58-e22625a1195a",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "filename": "kn-amido-souji-20260611-01.png",
+      "render_url": "/images/illustrations/kn-amido-souji-20260611-01.png",
+      "prompt": "tidy genkan basket with insect prevention supplies in plain containers, no writing",
+      "seed": 6110201,
+      "prompt_id": "f6619eb8-daea-4292-83d6-926c2608de71",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "filename": "kn-amido-souji-20260611-02.png",
+      "render_url": "/images/illustrations/kn-amido-souji-20260611-02.png",
+      "prompt": "open window airflow with clean screen and light curtain, no readable text",
+      "seed": 6110202,
+      "prompt_id": "9d4272ea-2677-4c9b-ad71-1645e3c61382",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "filename": "kn-amido-souji-20260611-03.png",
+      "render_url": "/images/illustrations/kn-amido-souji-20260611-03.png",
+      "prompt": "safe indoor Japanese apartment window cleaning setup with bucket and cloth on floor away from open window, no balcony ledge, no leaning outside, no text",
+      "seed": 6112203,
+      "prompt_id": "6c1b9834-c887-4c25-ba41-dfa13d95dade",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted",
+      "qa_note": "regenerated after visual QA rejection"
+    },
+    {
+      "filename": "kn-amido-souji-20260611-04.png",
+      "render_url": "/images/illustrations/kn-amido-souji-20260611-04.png",
+      "prompt": "minimal Japanese room with fan circulation toward screened window, blank objects",
+      "seed": 6110204,
+      "prompt_id": "281fb564-e9c8-4665-90ba-499cf149e16a",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    }
+  ]
+}
