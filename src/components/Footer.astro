@@ -16,7 +16,7 @@ const followLinks = [
       <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
         <div><h4 class="k-label mb-4">Sections</h4><ul class="space-y-3 text-sm text-[var(--ink-soft)]"><li><a href="/">ホーム</a></li><li><a href="/posts/">記事一覧</a></li><li><a href="/categories/">カテゴリー</a></li><li><a href="/search/">検索</a></li></ul></div>
         <div><h4 class="k-label mb-4">About</h4><ul class="space-y-3 text-sm text-[var(--ink-soft)]"><li><a href="/about/">サイトについて</a></li><li><a href="/editorial-process/">制作プロセス</a></li><li><a href="/editorial-standards/">編集基準</a></li><li><a href="/contact/">お問い合わせ</a></li></ul></div>
-        <div><h4 class="k-label mb-4">Legal</h4><ul class="space-y-3 text-sm text-[var(--ink-soft)]"><li><a href="/privacy/">プライバシー</a></li><li><a href="/terms/">利用規約</a></li><li><a href="/cookie-policy/">Cookie</a></li><li><a href="/affiliate-disclosure/">広告開示</a></li></ul></div>
+        <div><h4 class="k-label mb-4">Legal</h4><ul class="space-y-3 text-sm text-[var(--ink-soft)]"><li><a href="/privacy/">プライバシー</a></li><li><a href="/terms/">利用規約</a></li><li><a href="/cookie-policy/">Cookie</a></li><li><a href="/disclaimer/">免責事項</a></li><li><a href="/affiliate-disclosure/">広告開示</a></li></ul></div>
         <div><h4 class="k-label mb-4">Follow</h4>{followLinks.length ? <ul class="space-y-3 text-sm text-[var(--ink-soft)]">{followLinks.map((item)=><li><a href={item.href}>{item.label} →</a></li>)}</ul> : <p class="text-sm leading-7 text-[var(--ink-soft)]">公式SNSは準備中です。お問い合わせはContactからお願いします。</p>}</div>
       </div>
     </div>

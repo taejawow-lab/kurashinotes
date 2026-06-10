@@ -8,7 +8,7 @@ const featuredPosts = posts.slice(0,3);
 const recentPosts = posts.slice(3,12);
 const siteDescription = import.meta.env.PUBLIC_SITE_DESCRIPTION || '';
 ---
-<BaseLayout title="Home" description={siteDescription}>
+<BaseLayout title="暮らし・片づけ・季節の家事ガイド" description={siteDescription}>
   <Hero title="小さな暮らしを、ていねいに。" subtitle={siteDescription} ctaHref={`/posts/${posts[0]?.slug}/`} />
   <section class="wrap py-14 md:py-20">
     <div class="grid gap-4 border-b pb-8 md:grid-cols-[220px_1fr] md:items-end" style="border-color:var(--line);">
