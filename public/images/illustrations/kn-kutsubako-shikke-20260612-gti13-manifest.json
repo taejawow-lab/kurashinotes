@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-12",
+  "site": "kurashinotes",
+  "slug": "tsuyu-kutsu-bako-kabi-shikke-reset-2026",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-kutsubako-shikke-20260612-hero.png",
+      "bytes": 1564075,
+      "prompt": "Japanese apartment entryway shoe cabinet opened for airing, clean shoes spaced apart, no text",
+      "seed": 202606120200,
+      "prompt_id": "662103e3-8206-4386-a371-97bfe8c4ca89",
+      "raw_output": {
+        "filename": "hermes_batchb_20260612_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, receipt, form, invoice, login screen, calendar grid"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-kutsubako-shikke-20260612-01.png",
+      "bytes": 1612018,
+      "prompt": "soft cloth and plain tray beside shoes in bright entryway, blank labels no writing",
+      "seed": 202606120201,
+      "prompt_id": "7d987ffa-ac04-4760-8e91-b96006e7be16",
+      "raw_output": {
+        "filename": "hermes_batchb_20260612_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, receipt, form, invoice, login screen, calendar grid"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-kutsubako-shikke-20260612-02.png",
+      "bytes": 1320184,
+      "prompt": "small fan facing open shoe cabinet from safe distance, no cords visible, no text",
+      "seed": 202606120202,
+      "prompt_id": "547d61fb-e7bc-4dab-890f-b0c7ee46d9ee",
+      "raw_output": {
+        "filename": "hermes_batchb_20260612_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, receipt, form, invoice, login screen, calendar grid"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-kutsubako-shikke-20260612-03.png",
+      "bytes": 1726603,
+      "prompt": "cedar-like blank moisture blocks and breathable shoe storage, no written labels",
+      "seed": 202606120203,
+      "prompt_id": "6a2a361d-60b3-4370-9bf8-ef8634bea85d",
+      "raw_output": {
+        "filename": "hermes_batchb_20260612_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, receipt, form, invoice, login screen, calendar grid"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-kutsubako-shikke-20260612-04.png",
+      "bytes": 2104488,
+      "prompt": "family entry routine with shoes drying on mat, faces not visible, no text",
+      "seed": 202606120204,
+      "prompt_id": "21c67467-1aef-4ffa-86a8-978333a2827a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260612_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, receipt, form, invoice, login screen, calendar grid"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-kutsubako-shikke-20260612-05.png",
+      "bytes": 1566197,
+      "prompt": "tidy shoe cabinet after reset with fewer pairs and airflow gap, no labels",
+      "seed": 202606120205,
+      "prompt_id": "1af37221-4bd5-4855-8f54-022917a7901a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260612_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, receipt, form, invoice, login screen, calendar grid"
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260612-kurashinotes-contact-sheet.jpg",
+  "visual_qa": "passed parent visual contact-sheet inspection after regeneration where needed; retained 6 GTI13 raster images with no readable text/logos/screens or safety-blocking defects",
+  "adsense_readiness": "source-backed practical guide, 8 citations, internal links, FAQ/schema, no affiliate filler, GTI13 provenance committed"
+}
