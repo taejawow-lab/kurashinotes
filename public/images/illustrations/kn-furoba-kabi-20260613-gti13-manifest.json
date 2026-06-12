@@ -1,0 +1,207 @@
+{
+  "date": "2026-06-13",
+  "site": "kurashinotes",
+  "slug": "natsu-furoba-kabi-yobou-kanki-mizukiri-flow",
+  "host": "gti13",
+  "endpoint": "direct-gti13-comfyui-redacted",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-furoba-kabi-20260613-hero.png",
+      "url": "/images/illustrations/kn-furoba-kabi-20260613-hero.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1484705,
+      "prompt": "clean modern Japanese bathroom after bath with squeegee on wet tile wall, no text, no labels, no people face",
+      "seed": 202606139200,
+      "prompt_id": "c98d10f6-7eb0-4de3-b767-09997ed0ed56",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_regen_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 4.4,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, labels, screen text, fake UI, calendar, document writing, forms, receipts, readable book page, distorted hands, people faces, unsafe wiring, placeholder, cartoon, low quality, office desk unrelated scene, plant macro, outdoor nature macro"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-furoba-kabi-20260613-01.png",
+      "url": "/images/illustrations/kn-furoba-kabi-20260613-01.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1374202,
+      "prompt": "Japanese bathroom floor and tub edge being wiped dry with plain cloth, no readable text, no bottles with labels",
+      "seed": 202606139201,
+      "prompt_id": "1e8e82c5-ddfe-429a-8bfd-a2608ddb80aa",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_regen_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 4.4,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, labels, screen text, fake UI, calendar, document writing, forms, receipts, readable book page, distorted hands, people faces, unsafe wiring, placeholder, cartoon, low quality, office desk unrelated scene, plant macro, outdoor nature macro"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-furoba-kabi-20260613-02.png",
+      "url": "/images/illustrations/kn-furoba-kabi-20260613-02.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1100873,
+      "prompt": "bathroom ventilation scene with door slightly open and fan grille visible, no markings, no text, no controls closeup",
+      "seed": 202606139202,
+      "prompt_id": "ee5a3b2c-4ee6-42b0-bd32-543126ab798d",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_regen_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 4.4,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, labels, screen text, fake UI, calendar, document writing, forms, receipts, readable book page, distorted hands, people faces, unsafe wiring, placeholder, cartoon, low quality, office desk unrelated scene, plant macro, outdoor nature macro"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-furoba-kabi-20260613-03.png",
+      "url": "/images/illustrations/kn-furoba-kabi-20260613-03.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1228363,
+      "prompt": "minimal bathroom shelf with a few plain unlabeled bottles raised off wet floor, no writing, no logos",
+      "seed": 202606139203,
+      "prompt_id": "7c482ee9-6a12-4c46-8176-2ec810b40358",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_regen_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 4.4,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, labels, screen text, fake UI, calendar, document writing, forms, receipts, readable book page, distorted hands, people faces, unsafe wiring, placeholder, cartoon, low quality, office desk unrelated scene, plant macro, outdoor nature macro"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-furoba-kabi-20260613-04.png",
+      "url": "/images/illustrations/kn-furoba-kabi-20260613-04.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1378115,
+      "prompt": "family bathroom cleanup routine shown as hands holding plain squeegee near tub, no faces, no text, safe dry floor",
+      "seed": 202606139204,
+      "prompt_id": "7d387a07-a175-4ad1-9700-538a50bfaa3d",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_regen_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 4.4,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, labels, screen text, fake UI, calendar, document writing, forms, receipts, readable book page, distorted hands, people faces, unsafe wiring, placeholder, cartoon, low quality, office desk unrelated scene, plant macro, outdoor nature macro"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-furoba-kabi-20260613-05.png",
+      "url": "/images/illustrations/kn-furoba-kabi-20260613-05.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1502056,
+      "prompt": "clean dry Japanese bathroom at night with simple towel and empty floor, no text, no labels, no electronics",
+      "seed": 202606139205,
+      "prompt_id": "24d3b2ee-77dc-4479-9ec8-4b235689a18e",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_regen_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 4.4,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, labels, screen text, fake UI, calendar, document writing, forms, receipts, readable book page, distorted hands, people faces, unsafe wiring, placeholder, cartoon, low quality, office desk unrelated scene, plant macro, outdoor nature macro"
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260613-kurashinotes-contact-sheet.jpg",
+  "visual_qa": "final contact sheet reviewed after regeneration; rejected text/mismatch panels replaced",
+  "source_validation": [
+    {
+      "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk4_000016.html",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/seikatsu-eisei/index.html",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/consumer_safety/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.nite.go.jp/jiko/jikojohou/index.html",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/representation/household_goods/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.jhf.go.jp/loan/yushi/info/reform/maintenance.html",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.cdc.gov/mold-health/about/index.html",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.cdc.gov/hygiene/about/",
+      "status": 200,
+      "ok": true,
+      "patched_after_validation": true
+    }
+  ],
+  "adsense_readiness": "8 sources, internal links, FAQ/schema, no affiliate filler, helpful-content practical workflow"
+}
