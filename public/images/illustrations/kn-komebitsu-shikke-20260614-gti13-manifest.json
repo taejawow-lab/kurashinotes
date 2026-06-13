@@ -1,0 +1,164 @@
+{
+  "date": "2026-06-14",
+  "site": "kurashinotes",
+  "slug": "natsu-komebitsu-mushi-shikke-yobou-flow",
+  "endpoint": "GTI13 direct ComfyUI (redacted in user reports)",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-komebitsu-shikke-20260614-hero.png",
+      "url": "/images/illustrations/kn-komebitsu-shikke-20260614-hero.png",
+      "bytes": 1459607,
+      "prompt": "sealed plain rice storage bin on clean Japanese kitchen counter with measuring cup, no writing no labels",
+      "seed": 202606149000,
+      "prompt_id": "f7e5be04-9ef2-4aca-97a6-02f3571cb270",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_regen_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, blurry, low resolution, generic stock art, placeholder, cartoon, labels, writing, documents, notebook writing, monitor, laptop, mountain, airplane"
+      },
+      "qa_note": "regenerated after contact-sheet QA"
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-komebitsu-shikke-20260614-01.png",
+      "url": "/images/illustrations/kn-komebitsu-shikke-20260614-01.png",
+      "bytes": 1559820,
+      "prompt": "empty plain rice storage container being wiped with dry cloth on clean counter, no writing no labels",
+      "seed": 202606149001,
+      "prompt_id": "b2ba921a-4fc3-49cb-bcc8-e9a2441f26f9",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_regen_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, blurry, low resolution, generic stock art, placeholder, cartoon, labels, writing, documents, notebook writing, monitor, laptop, mountain, airplane"
+      },
+      "qa_note": "regenerated after contact-sheet QA"
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-komebitsu-shikke-20260614-02.png",
+      "url": "/images/illustrations/kn-komebitsu-shikke-20260614-02.png",
+      "bytes": 1735533,
+      "prompt": "small portions of rice in plain unlabeled containers in tidy kitchen cabinet, no text",
+      "seed": 202606149002,
+      "prompt_id": "a5f7fbbc-ddf0-451f-a32f-fbd20a8ef7f6",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_regen_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, blurry, low resolution, generic stock art, placeholder, cartoon, labels, writing, documents, notebook writing, monitor, laptop, mountain, airplane"
+      },
+      "qa_note": "regenerated after contact-sheet QA"
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-komebitsu-shikke-20260614-03.png",
+      "url": "/images/illustrations/kn-komebitsu-shikke-20260614-03.png",
+      "bytes": 1485332,
+      "prompt": "plain sealed rice container stored away from sink and sunlight in cool pantry shelf, no labels",
+      "seed": 202606149003,
+      "prompt_id": "f0d01f15-bf3c-4afe-800f-bbf88b3b0350",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_regen_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, blurry, low resolution, generic stock art, placeholder, cartoon, labels, writing, documents, notebook writing, monitor, laptop, mountain, airplane"
+      },
+      "qa_note": "regenerated after contact-sheet QA"
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-komebitsu-shikke-20260614-04.png",
+      "url": "/images/illustrations/kn-komebitsu-shikke-20260614-04.png",
+      "bytes": 1760773,
+      "prompt": "clean kitchen counter showing old rice bowl separate from new plain container, no text",
+      "seed": 202606149004,
+      "prompt_id": "ce928029-2f1a-4b12-9021-2c3d5817b998",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_regen_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, blurry, low resolution, generic stock art, placeholder, cartoon, labels, writing, documents, notebook writing, monitor, laptop, mountain, airplane"
+      },
+      "qa_note": "regenerated after contact-sheet QA"
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-komebitsu-shikke-20260614-05.png",
+      "url": "/images/illustrations/kn-komebitsu-shikke-20260614-05.png",
+      "bytes": 1669747,
+      "prompt": "evening Japanese kitchen rice bin area clean dry and organized, no paper no writing",
+      "seed": 202606149005,
+      "prompt_id": "1f17f1a9-e607-4fce-a79d-d6f249f8ab7a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_regen_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, blurry, low resolution, generic stock art, placeholder, cartoon, labels, writing, documents, notebook writing, monitor, laptop, mountain, airplane"
+      },
+      "qa_note": "regenerated after contact-sheet QA"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260614-kurashinotes-contact-sheet.jpg",
+  "visual_qa": "passed final contact sheet QA: topic-accurate, no readable text/logos/UI requiring rejection",
+  "adsense_readiness": "source-backed practical guide, 8 sources, internal links, FAQ/schema, no affiliate filler, 6 GTI13 raster images"
+}
