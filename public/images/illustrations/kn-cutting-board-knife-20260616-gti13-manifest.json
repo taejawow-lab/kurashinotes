@@ -1,0 +1,146 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsu-makaita-houchou-kansou-shuunou-flow",
+  "date": "2026-06-16",
+  "generator": "GTI13 direct ComfyUI",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-cutting-board-knife-20260616-hero.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1420472,
+      "prompt": "clean Japanese kitchen counter with washed cutting board standing upright to dry and knife safely on rack, no text no labels",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160300,
+      "prompt_id": "f695ec15-5aeb-4642-bdc0-d7d9adf66b0e",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-cutting-board-knife-20260616-01.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1620840,
+      "prompt": "plain cutting boards separated by food type on clean counter, no writing no meat contact",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160301,
+      "prompt_id": "35bbdd55-ca46-4f35-964f-394c2d46f9d1",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-cutting-board-knife-20260616-02.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1790974,
+      "prompt": "hands off safe drying setup with dish rack, airflow, towel nearby folded plain, no labels",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160302,
+      "prompt_id": "3ebbd757-25ea-4b1b-a73e-512cede64423",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-cutting-board-knife-20260616-03.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1117760,
+      "prompt": "clean Japanese kitchen counter with knife safely drying in a simple knife stand away from edge, cutting board upright, no food, no text, no labels",
+      "negative": "text, words, letters, numbers, watermark, logo, brand, readable labels, screen text, fake ui, QR code, barcode, keypad digits, exposed wiring, unsafe knife, blade at table edge, raw meat, forms, documents with writing, calendar, blurry, distorted, clutter",
+      "seed": 202606169004,
+      "prompt_id": "b521a23e-f25c-4555-9684-50536b58d7dc",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.6,
+      "steps": 30,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_regen_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-cutting-board-knife-20260616-04.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1707123,
+      "prompt": "evening reset scene with sink clear, cutting board vertical, plain containers, no writing",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160304,
+      "prompt_id": "1bf18b17-6225-498f-b913-48612f984759",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-cutting-board-knife-20260616-05.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1570186,
+      "prompt": "morning check of dry cutting board stored upright in cabinet, clean Japanese kitchen, no labels",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160305,
+      "prompt_id": "382aaf43-e647-4fb9-8877-b022a3a464b3",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ]
+}
