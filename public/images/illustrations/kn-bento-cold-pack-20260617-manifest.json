@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-06-16T22:17:21Z",
+  "batch": "B 20260617 cron",
+  "date": "2026-06-17",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, price tags, receipts, forms, calculators, license plates, warning labels"
+  },
+  "finalized_at": "2026-06-16T22:26:26Z",
+  "site": "kurashinotes",
+  "slug": "natsu-bentou-horeizai-mochiaruki-anzen-flow-2026",
+  "title": "夏の弁当を保冷剤で持ち歩く安全手順",
+  "assets": [
+    {
+      "file": "public/images/illustrations/kn-bento-cold-pack-20260617-hero.png",
+      "filename": "kn-bento-cold-pack-20260617-hero.png",
+      "prompt": "realistic Japanese home kitchen bento packing with sealed lunch box and cold packs, clean counter, no raw meat, no labels, no readable text",
+      "seed": 202606172013,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b10556f5-a3d5-43c8-9b25-ddb031195f08",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1857005,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/kn-bento-cold-pack-20260617-01.png",
+      "filename": "kn-bento-cold-pack-20260617-01.png",
+      "prompt": "realistic bento cooling before packing on clean counter, cold pack nearby, no raw meat, no text",
+      "seed": 202606172014,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0ba010ea-615b-467b-b3cb-5c6e69393606",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_kurashinotes_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1738013,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/kn-bento-cold-pack-20260617-02.png",
+      "filename": "kn-bento-cold-pack-20260617-02.png",
+      "prompt": "realistic insulated lunch bag open with sealed bento box and blue cold packs inside, plain containers, no drink bottles, no labels no text",
+      "seed": 202606173009,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b7a97b0f-73e6-4615-a2ad-4d729b3da936",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_final_kurashinotes_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-regenerated",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1900852,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/kn-bento-cold-pack-20260617-03.png",
+      "filename": "kn-bento-cold-pack-20260617-03.png",
+      "prompt": "realistic morning kitchen bento checklist metaphor with sealed lunch box and cold packs on clean counter, blank cards without writing, no sink sticky notes, no text",
+      "seed": 202606173010,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6f8cd004-ab86-45a7-8e72-073c1f0f406d",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_final_kurashinotes_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-regenerated",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1626864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/kn-bento-cold-pack-20260617-04.png",
+      "filename": "kn-bento-cold-pack-20260617-04.png",
+      "prompt": "realistic office lunch storage still life with closed lunch bag away from sun, no screens no readable text",
+      "seed": 202606172017,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c544740f-0d1d-4113-af4c-46e74e4087aa",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1503257,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/kn-bento-cold-pack-20260617-05.png",
+      "filename": "kn-bento-cold-pack-20260617-05.png",
+      "prompt": "realistic summer bento safety discard decision indoors on clean kitchen counter, sealed lunch box closed beside trash bin, cold pack visible, no food on floor, no spilled rice, no text no labels",
+      "seed": 202606174006,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "76f87116-a6be-459c-88d8-6d9c6e9d22e3",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_final2_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-regenerated-final2",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1544401,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.4,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Final2 contact sheet regenerated after contact-sheet QA; accepted assets are the final published set.",
+  "contact_sheet_final2": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260617-kurashinotes-contact-sheet-final2.jpg"
+}
