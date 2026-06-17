@@ -1,0 +1,128 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsu-reizouko-tsumesugi-tsukurioki-reikyaku-flow-2026",
+  "date": "2026-06-18",
+  "assets": [
+    {
+      "filename": "kn-fridge-cooling-20260618-hero.png",
+      "path": "public/images/illustrations/kn-fridge-cooling-20260618-hero.png",
+      "url": "/images/illustrations/kn-fridge-cooling-20260618-hero.png",
+      "prompt": "open refrigerator in a small clean Japanese apartment kitchen, neatly spaced plain food containers, vegetables in drawer, no labels, no text, practical food storage scene, editorial photo",
+      "seed": 818000,
+      "prompt_id": "3d684121-f683-40f0-ba0a-707f2617007b",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "kn-fridge-cooling-20260618-hero-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "regenerated_final2": true
+    },
+    {
+      "filename": "kn-fridge-cooling-20260618-01.png",
+      "path": "public/images/illustrations/kn-fridge-cooling-20260618-01.png",
+      "url": "/images/illustrations/kn-fridge-cooling-20260618-01.png",
+      "prompt": "safe batch cooking cooling workflow in clean home kitchen, shallow plain glass containers on counter, refrigerator visible in background, no text, no labels, no raw meat, editorial photo",
+      "seed": 818001,
+      "prompt_id": "02ff05d9-edbb-48fe-a2da-fde5a4b0e03e",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "kn-fridge-cooling-20260618-01-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "regenerated_final2": true
+    },
+    {
+      "filename": "kn-fridge-cooling-20260618-02.png",
+      "path": "public/images/illustrations/kn-fridge-cooling-20260618-02.png",
+      "url": "/images/illustrations/kn-fridge-cooling-20260618-02.png",
+      "prompt": "after grocery shopping, clean counter with separate plain produce bags and chilled items near open refrigerator, no packaging text, no raw meat, no labels, editorial photo",
+      "seed": 818002,
+      "prompt_id": "85314639-68cf-4bfc-9c0f-7cc522c3ea64",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "kn-fridge-cooling-20260618-02-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "regenerated_final2": true
+    },
+    {
+      "filename": "kn-fridge-cooling-20260618-03.png",
+      "path": "public/images/illustrations/kn-fridge-cooling-20260618-03.png",
+      "url": "/images/illustrations/kn-fridge-cooling-20260618-03.png",
+      "prompt": "front shelf of refrigerator arranged as eat-first zone with plain containers and leftovers, no labels, no text, clean bright interior, editorial photo",
+      "seed": 818003,
+      "prompt_id": "fa61a16a-8ef5-48ae-b786-7ab919846a5b",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "kn-fridge-cooling-20260618-03-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "regenerated_final2": true
+    },
+    {
+      "filename": "kn-fridge-cooling-20260618-04.png",
+      "path": "public/images/illustrations/kn-fridge-cooling-20260618-04.png",
+      "url": "/images/illustrations/kn-fridge-cooling-20260618-04.png",
+      "prompt": "summer grocery return scene with plain insulated cooler bag and ice packs beside refrigerator, no logos, no text, clean apartment kitchen, editorial photo",
+      "seed": 818004,
+      "prompt_id": "34e556fa-44c4-47d7-8095-656ba6e474c4",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "kn-fridge-cooling-20260618-04-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "regenerated_final2": true
+    },
+    {
+      "filename": "kn-fridge-cooling-20260618-05.png",
+      "path": "public/images/illustrations/kn-fridge-cooling-20260618-05.png",
+      "url": "/images/illustrations/kn-fridge-cooling-20260618-05.png",
+      "prompt": "small Japanese kitchen with clear walkway in front of refrigerator, organized shelves, family food safety routine, no faces closeup, no text, editorial photo",
+      "seed": 818005,
+      "prompt_id": "4f5f5bb2-9a8f-466a-b15d-7b70d091553a",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "kn-fridge-cooling-20260618-05-final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true,
+      "regenerated_final2": true
+    }
+  ],
+  "gate_reason": "sentinel_unreachable_but_direct_comfyui_ok",
+  "endpoint_host": "gti13 direct ComfyUI",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "final_visual_qa": "final2 full Kurashinotes regeneration with English refrigerator-specific prompts"
+}
