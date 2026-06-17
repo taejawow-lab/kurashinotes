@@ -108,7 +108,7 @@ const locale = localeMap[lang] || 'en-US';
   <article class="wrap py-10 md:py-14">
     <header class="mx-auto mb-10 max-w-4xl text-center">
       {category && <a href={`/category/${categorySlug}/`} class="mb-5 inline-flex min-h-9 items-center rounded-full px-4 py-2 text-xs font-bold tracking-[.16em] text-white" style="background:var(--terra);">{category}</a>}
-      <h1 class="mb-6 text-4xl font-black leading-[1.28] tracking-[.05em] text-[var(--ink)] md:text-6xl">{title}</h1>
+      <h1 class="mb-6 break-words text-4xl font-black leading-[1.28] tracking-[.05em] text-[var(--ink)] md:text-6xl" style="overflow-wrap:anywhere;">{title}</h1>
       <p class="mx-auto max-w-3xl text-lg leading-9 text-[var(--ink-soft)] md:text-xl">{description}</p>
       <div class="mt-7 flex flex-wrap items-center justify-center gap-3 text-xs text-[var(--ink-faint)]">
         <time datetime={pubDate?.toISOString()} class="rounded-full border px-3 py-2" style="border-color:var(--line);">{t.published} {pubDate?.toLocaleDateString(locale)}</time>
