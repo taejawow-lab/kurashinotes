@@ -1,0 +1,159 @@
+{
+  "date": "2026-06-21",
+  "site": "kurashinotes",
+  "slug": "natsu-seihyozara-kori-eisei-reizouko-flow-2026",
+  "endpoint": "GTI13 direct ComfyUI",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-seihyozara-kori-20260621-hero.png",
+      "bytes": 1587006,
+      "prompt": "clean ice cube tray with clear ice cubes on a Japanese kitchen counter, no text",
+      "seed": 202606219253,
+      "prompt_id": "69a74422-97f0-44fc-94c3-133e9067b440",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_kurashinotes_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-seihyozara-kori-20260621-01.png",
+      "bytes": 1568778,
+      "prompt": "plain empty translucent ice cube tray being filled with clear water at kitchen sink, no fruit no hands",
+      "seed": 202606219700,
+      "prompt_id": "f80750cd-1eb4-4606-afea-27c9eb2a2a74",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_kura_final_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, fruit, berries, lemon, food pieces, colored food, people, hands, unsafe, dirty, blurry, low quality, fake labels"
+      },
+      "regenerated_after_visual_qa": "final2_no_fruit_plain_ice"
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-seihyozara-kori-20260621-02.png",
+      "bytes": 1633156,
+      "prompt": "tidy freezer shelf with a plain ice cube tray and sealed plain containers, no fruit no labels",
+      "seed": 202606219701,
+      "prompt_id": "c05ca08b-5351-49e3-a6b7-8e5a3773dc69",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_kura_final_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, fruit, berries, lemon, food pieces, colored food, people, hands, unsafe, dirty, blurry, low quality, fake labels"
+      },
+      "regenerated_after_visual_qa": "final2_no_fruit_plain_ice"
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-seihyozara-kori-20260621-03.png",
+      "bytes": 1483913,
+      "prompt": "plain ice cube tray washed and drying upside down beside a kitchen sink, no fruit no colored objects",
+      "seed": 202606219702,
+      "prompt_id": "b4a1069c-3513-4943-bbac-c44851524706",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_kura_final_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, fruit, berries, lemon, food pieces, colored food, people, hands, unsafe, dirty, blurry, low quality, fake labels"
+      },
+      "regenerated_after_visual_qa": "final2_no_fruit_plain_ice"
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-seihyozara-kori-20260621-04.png",
+      "bytes": 1458517,
+      "prompt": "clear ice cubes served with plain metal tongs and glass of water, no text",
+      "seed": 202606219279,
+      "prompt_id": "c240d2f2-af9e-49fe-8bca-75772d59f9da",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_kurashinotes_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-seihyozara-kori-20260621-05.png",
+      "bytes": 1641650,
+      "prompt": "night kitchen counter with clean ice cube tray drying on rack, no text",
+      "seed": 202606219280,
+      "prompt_id": "8bf9100c-d059-4afd-b245-6fb35435da39",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_kurashinotes_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260621-kurashinotes-contact-sheet-final2.jpg",
+  "windows_contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch-b-20260621-kurashinotes-contact-sheet-final2.jpg",
+  "visual_qa": "final2 contact sheet after rejecting fruit/topic-mismatch ice tray images",
+  "adsense_readiness": "8 citations, internal links, FAQ/schema, no affiliate filler"
+}
