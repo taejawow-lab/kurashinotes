@@ -49,27 +49,6 @@
     {
       "site": "kurashinotes",
       "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
-      "filename": "kn-taoru-shikke-20260622-02.png",
-      "file": "public/images/illustrations/kn-taoru-shikke-20260622-02.png",
-      "alt": "洗濯前タオルをためない小さなかご",
-      "prompt": "realistic washroom corner with breathable laundry basket, towels separated, dry floor, no words, no logos",
-      "seed": 202606220209,
-      "dimensions": [
-        1536,
-        864
-      ],
-      "prompt_id": "de5cefaf-b23d-4870-82a3-69214aafd602",
-      "comfy_output": {
-        "filename": "hermes_batch_b_20260622_00015_.png",
-        "subfolder": "",
-        "type": "output"
-      },
-      "status": "ok",
-      "bytes": 1626090
-    },
-    {
-      "site": "kurashinotes",
-      "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
       "filename": "kn-taoru-shikke-20260622-03.png",
       "file": "public/images/illustrations/kn-taoru-shikke-20260622-03.png",
       "alt": "手洗い後に乾きやすい洗面台",
@@ -132,5 +111,6 @@
     }
   ],
   "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260622-gti13-contact-sheet.jpg",
-  "visual_qa": "pending parent visual inspection before final report"
+  "visual_qa": "Final QA excluded one generated image: visual QA rejected towel/fabric lying on floor, contradicting article hygiene guidance. Published article renders 5 accepted GTI13 raster images.",
+  "published_visuals_count": 5
 }
