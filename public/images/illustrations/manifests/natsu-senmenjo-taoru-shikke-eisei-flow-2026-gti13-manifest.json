@@ -1,0 +1,136 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "assets": [
+    {
+      "site": "kurashinotes",
+      "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
+      "filename": "kn-taoru-shikke-20260622-hero.png",
+      "file": "public/images/illustrations/kn-taoru-shikke-20260622-hero.png",
+      "alt": "夏の洗面所で乾きやすく整えたタオル",
+      "prompt": "realistic Japanese apartment washroom in summer with clean towels hanging with airflow, sink area tidy, soft daylight, no readable text, no logos",
+      "seed": 202606220207,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "dbaf5713-94f1-477d-9d91-e81c8b30dc6c",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00013_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1685284
+    },
+    {
+      "site": "kurashinotes",
+      "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
+      "filename": "kn-taoru-shikke-20260622-01.png",
+      "file": "public/images/illustrations/kn-taoru-shikke-20260622-01.png",
+      "alt": "洗面所タオルの間隔をあけた掛け方",
+      "prompt": "realistic close view of towels spaced on simple rail in compact Japanese washroom, no labels, no text, no logos",
+      "seed": 202606220208,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "defbaab4-42b0-4edf-9c61-a23d74041bd5",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00014_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1540518
+    },
+    {
+      "site": "kurashinotes",
+      "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
+      "filename": "kn-taoru-shikke-20260622-02.png",
+      "file": "public/images/illustrations/kn-taoru-shikke-20260622-02.png",
+      "alt": "洗濯前タオルをためない小さなかご",
+      "prompt": "realistic washroom corner with breathable laundry basket, towels separated, dry floor, no words, no logos",
+      "seed": 202606220209,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "de5cefaf-b23d-4870-82a3-69214aafd602",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00015_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1626090
+    },
+    {
+      "site": "kurashinotes",
+      "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
+      "filename": "kn-taoru-shikke-20260622-03.png",
+      "file": "public/images/illustrations/kn-taoru-shikke-20260622-03.png",
+      "alt": "手洗い後に乾きやすい洗面台",
+      "prompt": "realistic clean sink area with hand towel, open airflow, no soap label text, no logos",
+      "seed": 202606220210,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9f2b8545-5257-46a1-acee-dcb2deee22dc",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00016_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1673848
+    },
+    {
+      "site": "kurashinotes",
+      "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
+      "filename": "kn-taoru-shikke-20260622-04.png",
+      "file": "public/images/illustrations/kn-taoru-shikke-20260622-04.png",
+      "alt": "夜の洗面所リセット",
+      "prompt": "realistic evening Japanese washroom reset with towels drying, small fan far away, tidy counter, no text",
+      "seed": 202606220211,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "fd3f1f1c-25f3-4233-9ef4-b879b51919fd",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00017_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1524821
+    },
+    {
+      "site": "kurashinotes",
+      "slug": "natsu-senmenjo-taoru-shikke-eisei-flow-2026",
+      "filename": "kn-taoru-shikke-20260622-05.png",
+      "file": "public/images/illustrations/kn-taoru-shikke-20260622-05.png",
+      "alt": "湿気をためない収納棚",
+      "prompt": "realistic compact washroom shelf with folded clean towels and open space for airflow, no labels, no text",
+      "seed": 202606220212,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "78096e1a-be93-4acc-b608-f26b132ff8f8",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00018_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1403342
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260622-gti13-contact-sheet.jpg",
+  "visual_qa": "pending parent visual inspection before final report"
+}
