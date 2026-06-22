@@ -1,0 +1,118 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsu-reizouko-nioi-ondo-reset-2026",
+  "date": "2026-06-23",
+  "assets": [
+    {
+      "filename": "public/images/illustrations/kn-reizouko-reset-20260623-hero.png",
+      "url": "/images/illustrations/kn-reizouko-reset-20260623-hero.png",
+      "prompt": "organized Japanese home refrigerator interior with plain glass containers, loose vegetables in clear bins, no bottles, no product packaging, no labels, no text",
+      "seed": 62323901,
+      "prompt_id": "9815bee0-701a-4a9b-ac96-ffb9d3e10ac0",
+      "source_meta": {
+        "filename": "batch_b_20260623_repair_kurashinotes_62323901_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "site": "kurashinotes"
+    },
+    {
+      "filename": "public/images/illustrations/kn-reizouko-reset-20260623-01.png",
+      "url": "/images/illustrations/kn-reizouko-reset-20260623-01.png",
+      "prompt": "plain clear box for eat first items inside refrigerator, blank cards no writing, clean safe food storage",
+      "seed": 62323201,
+      "prompt_id": "bb685d4b-2748-486d-b3b7-71bc0276eef6",
+      "source_meta": {
+        "filename": "batch_b_20260623_kurashinotes_1_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    },
+    {
+      "filename": "public/images/illustrations/kn-reizouko-reset-20260623-02.png",
+      "url": "/images/illustrations/kn-reizouko-reset-20260623-02.png",
+      "prompt": "organized vegetable drawer with sealed produce bags and no labels, clean refrigerator scene",
+      "seed": 62323202,
+      "prompt_id": "e3fc31b9-91aa-4e3d-ae31-1e80f720d04c",
+      "source_meta": {
+        "filename": "batch_b_20260623_kurashinotes_2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    },
+    {
+      "filename": "public/images/illustrations/kn-reizouko-reset-20260623-03.png",
+      "url": "/images/illustrations/kn-reizouko-reset-20260623-03.png",
+      "prompt": "closed refrigerator during power outage preparation, flashlight on counter blank no text, calm kitchen",
+      "seed": 62323203,
+      "prompt_id": "a8bce73f-a118-4de4-8e1e-dcd3cfdd20cb",
+      "source_meta": {
+        "filename": "batch_b_20260623_kurashinotes_3_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    },
+    {
+      "filename": "public/images/illustrations/kn-reizouko-reset-20260623-04.png",
+      "url": "/images/illustrations/kn-reizouko-reset-20260623-04.png",
+      "prompt": "kitchen table with blank checklist cards, baking soda container with no label, clean cloth, no readable Japanese text",
+      "seed": 62323204,
+      "prompt_id": "7cd060fc-3e8e-49fb-9b03-a36f382546a6",
+      "source_meta": {
+        "filename": "batch_b_20260623_kurashinotes_4_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    }
+  ]
+}
