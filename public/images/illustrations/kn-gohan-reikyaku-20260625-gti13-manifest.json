@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-25",
+  "site": "kurashinotes",
+  "slug": "natsu-gohan-reikyaku-hozon-youki-eisei-flow-2026",
+  "endpoint": "redacted-direct-gti13",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/kn-gohan-reikyaku-20260625-hero.png",
+      "bytes": 1585813,
+      "prompt": "overhead realistic photo of plain cooked white rice portioned into six shallow white food storage containers on a clean kitchen counter, lids beside containers, no people, no text, no labels, no other food",
+      "seed": 202606252000,
+      "prompt_id": "4f1801df-8152-4495-b3eb-773f10d84e84",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_kurashi_final2_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "person, people, face, eyes, hands, phone, screen, UI, text, words, letters, numbers, labels, logo, brand, book, notebook, paper, document, carpet, street, raw meat, fish, salmon, mixed meal, fruit juice, cups, unreadable marks, clutter, distorted objects, low resolution, watermark"
+      },
+      "regenerated_final2_qa": true
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/kn-gohan-reikyaku-20260625-01.png",
+      "bytes": 1065533,
+      "prompt": "close realistic kitchen photo of steamed white rice spread thin in shallow plain containers to cool safely, clean counter, no people, no text, no labels, no paper",
+      "seed": 202606252001,
+      "prompt_id": "cded7f65-00fd-4db0-b53c-cf90bcba10f9",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_kurashi_final2_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "person, people, face, eyes, hands, phone, screen, UI, text, words, letters, numbers, labels, logo, brand, book, notebook, paper, document, carpet, street, raw meat, fish, salmon, mixed meal, fruit juice, cups, unreadable marks, clutter, distorted objects, low resolution, watermark"
+      },
+      "regenerated_final2_qa": true
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/kn-gohan-reikyaku-20260625-02.png",
+      "bytes": 1203217,
+      "prompt": "clean refrigerator shelf with plain clear containers of white rice, blank lids, no labels, no text, no people, realistic home kitchen",
+      "seed": 202606252002,
+      "prompt_id": "b3a06bff-296a-49ed-9bf5-360c44834f31",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_kurashi_final2_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "person, people, face, eyes, hands, phone, screen, UI, text, words, letters, numbers, labels, logo, brand, book, notebook, paper, document, carpet, street, raw meat, fish, salmon, mixed meal, fruit juice, cups, unreadable marks, clutter, distorted objects, low resolution, watermark"
+      },
+      "regenerated_final2_qa": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/kn-gohan-reikyaku-20260625-03.png",
+      "bytes": 1109352,
+      "prompt": "two plain white bowls of cooked white rice and one plain covered storage container on clean kitchen counter, no appliance, no display, no labels, no text, no people",
+      "seed": 202606252103,
+      "prompt_id": "debf9f6a-624f-4a1d-ba4c-c092cfe2fdec",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_kurashi_final3_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "person, face, hands, phone, screen, UI, text, words, letters, numbers, labels, logo, brand, book, notebook, paper, document, appliance display, digital display, raw meat, fish, carpet, street, clutter, watermark"
+      },
+      "regenerated_final3_qa": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/kn-gohan-reikyaku-20260625-04.png",
+      "bytes": 1368752,
+      "prompt": "simple Japanese dining table with bowl of plain white rice and small covered storage container, no raw food, no fish, no text, no people",
+      "seed": 202606252004,
+      "prompt_id": "83ccfa07-7732-4249-83ec-16ed512806b9",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_kurashi_final2_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "person, people, face, eyes, hands, phone, screen, UI, text, words, letters, numbers, labels, logo, brand, book, notebook, paper, document, carpet, street, raw meat, fish, salmon, mixed meal, fruit juice, cups, unreadable marks, clutter, distorted objects, low resolution, watermark"
+      },
+      "regenerated_final2_qa": true
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/kn-gohan-reikyaku-20260625-05.png",
+      "bytes": 1333088,
+      "prompt": "clean sink side drying rack with plain washed food storage containers and lids drying, no people, no labels, no text, bright kitchen",
+      "seed": 202606252005,
+      "prompt_id": "72059d4b-4311-4577-8dde-d8a570168d8c",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_kurashi_final2_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "person, people, face, eyes, hands, phone, screen, UI, text, words, letters, numbers, labels, logo, brand, book, notebook, paper, document, carpet, street, raw meat, fish, salmon, mixed meal, fruit juice, cups, unreadable marks, clutter, distorted objects, low resolution, watermark"
+      },
+      "regenerated_final2_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260625-kurashinotes-contact-sheet-final3.jpg",
+  "visual_qa": "accepted after contact-sheet QA; rejected/regenerated text/UI/topic-mismatch assets before commit",
+  "adsense_readiness": "source-backed practical guide, 8 citations, internal links, FAQ/schema, no affiliate filler, GTI13 provenance committed"
+}
