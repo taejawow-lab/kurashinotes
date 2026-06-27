@@ -1,0 +1,15 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsu-horeibag-kaimono-eisei-shitaku-flow-2026",
+  "endpoint_host": "gti15",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    "public/images/illustrations/natsu-horeibag-kaimono-eisei-shitaku-flow-2026-01.png",
+    "public/images/illustrations/natsu-horeibag-kaimono-eisei-shitaku-flow-2026-02.png",
+    "public/images/illustrations/natsu-horeibag-kaimono-eisei-shitaku-flow-2026-03.png",
+    "public/images/illustrations/natsu-horeibag-kaimono-eisei-shitaku-flow-2026-04.png",
+    "public/images/illustrations/natsu-horeibag-kaimono-eisei-shitaku-flow-2026-05.png"
+  ],
+  "visual_qa": "passed manually from contact sheets; rejected images excluded",
+  "date": "2026-06-28"
+}
