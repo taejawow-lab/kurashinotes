@@ -1,0 +1,59 @@
+{
+  "endpoint": "GTI15 ComfyUI endpoint redacted in report; source host gti15, generated 2026-06-30 via generate_natural_blog_candidates.py",
+  "dimensions": "1536x864",
+  "qa": "combined contact sheets visually inspected; rejected images excluded from MDX/manifests",
+  "site": "kurashinotes",
+  "slug": "natsu-mugicha-pot-door-pocket-eisei-flow-2026",
+  "accepted_count": 6,
+  "images": [
+    {
+      "published_file": "kura-mugicha-pot-20260630-01.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/kurashinotes/prompt1/20260630_071710_krea_3685322541.png",
+      "engine": "krea",
+      "seed": "3685322541",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "kura-mugicha-pot-20260630-02.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/kurashinotes/prompt1/20260630_071745_realvis_3685322542.png",
+      "engine": "realvis",
+      "seed": "3685322542",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "kura-mugicha-pot-20260630-03.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/kurashinotes/prompt1/20260630_071803_juggernaut_3685322543.png",
+      "engine": "juggernaut",
+      "seed": "3685322543",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "kura-mugicha-pot-20260630-04.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/kurashinotes/regen1/20260630_072350_krea_294164640.png",
+      "engine": "krea",
+      "seed": "294164640",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "kura-mugicha-pot-20260630-05.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/kurashinotes/regen1/20260630_072427_realvis_294164641.png",
+      "engine": "realvis",
+      "seed": "294164641",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "kura-mugicha-pot-20260630-06.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/kurashinotes/regen1/20260630_072444_juggernaut_294164642.png",
+      "engine": "juggernaut",
+      "seed": "294164642",
+      "dimensions": "1536x864",
+      "accepted": true
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/kura-mugicha-pot-20260630-accepted-contact-sheet.jpg"
+}
