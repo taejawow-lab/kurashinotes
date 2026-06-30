@@ -1,0 +1,68 @@
+{
+  "site": "kurashinotes",
+  "slug": "natsu-sponge-fukin-kansou-kokan-eisei-flow-2026",
+  "endpoint": "GTI15 ComfyUI http://192.168.50.31:8188",
+  "accepted": [
+    {
+      "slot": 1,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_gti15_20260701/kurashinotes/p1/20260701_071734_krea_1360207318.png",
+      "dest": "public/images/illustrations/kura-sponge-fukin-20260701-01.png",
+      "selection": [
+        "kurashinotes",
+        "p1",
+        1
+      ],
+      "dimensions": "1536x864",
+      "qa": "accepted visual QA"
+    },
+    {
+      "slot": 2,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_gti15_20260701/kurashinotes/p1/20260701_071811_realvis_1360207319.png",
+      "dest": "public/images/illustrations/kura-sponge-fukin-20260701-02.png",
+      "selection": [
+        "kurashinotes",
+        "p1",
+        2
+      ],
+      "dimensions": "1536x864",
+      "qa": "accepted visual QA"
+    },
+    {
+      "slot": 3,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_gti15_20260701/kurashinotes/p1/20260701_071828_juggernaut_1360207320.png",
+      "dest": "public/images/illustrations/kura-sponge-fukin-20260701-03.png",
+      "selection": [
+        "kurashinotes",
+        "p1",
+        3
+      ],
+      "dimensions": "1536x864",
+      "qa": "accepted visual QA"
+    },
+    {
+      "slot": 4,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_gti15_20260701/kurashinotes/p2/20260701_071847_krea_2894422391.png",
+      "dest": "public/images/illustrations/kura-sponge-fukin-20260701-04.png",
+      "selection": [
+        "kurashinotes",
+        "p2",
+        1
+      ],
+      "dimensions": "1536x864",
+      "qa": "accepted visual QA"
+    },
+    {
+      "slot": 5,
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_gti15_20260701/kurashinotes/p2/20260701_071924_realvis_2894422392.png",
+      "dest": "public/images/illustrations/kura-sponge-fukin-20260701-05.png",
+      "selection": [
+        "kurashinotes",
+        "p2",
+        2
+      ],
+      "dimensions": "1536x864",
+      "qa": "accepted visual QA"
+    }
+  ],
+  "rejected_policy": "excluded from MDX/staging"
+}
