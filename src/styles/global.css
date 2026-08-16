@@ -15,7 +15,7 @@
     line-height: 1.72;
     font-feature-settings: 'palt' 1, 'pkna' 1;
   }
-  h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); @apply tracking-tight; word-break: keep-all; }
+  h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); @apply tracking-tight; word-break: keep-all; overflow-wrap: anywhere; }
   h1 { @apply text-4xl md:text-5xl font-bold; }
   h2 { @apply text-3xl md:text-4xl font-semibold mt-12 mb-4; }
   h3 { @apply text-2xl md:text-3xl font-semibold mt-8 mb-3; }
@@ -40,7 +40,7 @@
   .motif-pink { background: linear-gradient(135deg, #F2DFDD, #C98E94); }
   .motif-green { background: linear-gradient(135deg, #E5E7D8, #A8AF86); }
   .prose-article { @apply prose prose-lg max-w-none; color: var(--ink-soft); font-size: 1.05rem; line-height: 2.05; }
-  .prose-article :where(h2,h3,h4) { color: var(--ink); scroll-margin-top: 8rem; word-break: keep-all; overflow-wrap: anywhere; }
+  .prose-article :where(h2,h3,h4) { color: var(--ink); scroll-margin-top: 8rem; word-break: keep-all; }
   .prose-article h2 { font-size: clamp(1.55rem, 2vw, 2.15rem); line-height: 1.35; margin-top: 3rem; }
   .prose-article h3 { font-size: clamp(1.25rem, 1.5vw, 1.6rem); }
   .prose-article p { margin-block: 1.25em; }
