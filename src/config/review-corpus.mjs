@@ -22,7 +22,8 @@ export const REVIEW_POSTS = [
   "tsuyu-bathroom-kabi-nioi-reset-flow",
   "tsuyu-genkan-kasa-kutsu-shikke-seiri-2026",
   "tsuyu-heyaboshi-shikke-checklist",
-  "tsuyu-natsumae-futon-oshiire-shikke-flow"
+  "tsuyu-natsumae-futon-oshiire-shikke-flow",
+  "taifu-balcony-hisan-boushi-hinan-keiro-checklist-2026"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

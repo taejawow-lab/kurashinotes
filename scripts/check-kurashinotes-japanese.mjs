@@ -44,6 +44,7 @@ const FORBIDDEN_ENGLISH_BOILERPLATE = [
 
 function stripNonProse(text) {
   return text
+    .replace(/^import .*$/gm, ' ')
     .replace(/```[\s\S]*?```/g, ' ')
     .replace(/`[^`]*`/g, ' ')
     .replace(/https?:\/\/\S+/g, ' ')

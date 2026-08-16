@@ -1,0 +1,85 @@
+{
+  "slug": "taifu-balcony-hisan-boushi-hinan-keiro-checklist-2026",
+  "generated_at": "2026-08-17T07:16:00Z",
+  "generator": "GTI15 ComfyUI MCP generate_image",
+  "model": "RealVisXL_V5.0_Lightning_fp16.safetensors",
+  "parameters": {
+    "width": 1280,
+    "height": 720,
+    "steps": 8,
+    "cfg": 2.0,
+    "sampler": "euler",
+    "scheduler": "normal"
+  },
+  "qa": {
+    "status": "accepted",
+    "accepted_count": 6,
+    "contact_sheet": "kura-taifu-balcony-20260817-contact-sheet.jpg",
+    "method": "final contact-sheet visual inspection",
+    "checks": [
+      "topic fit",
+      "no readable text or fake interface",
+      "no logos or brands",
+      "no people, faces, or hands",
+      "no material distortion",
+      "no unsafe implication",
+      "distinct editorial role"
+    ],
+    "rejected_and_replaced": [
+      {
+        "original_filename": "ComfyUI_00064_.png",
+        "reason": "家具が窓際にあり安全メッセージと不一致",
+        "replacement_filename": "ComfyUI_00068_.png"
+      },
+      {
+        "original_filename": "ComfyUI_00065_.png",
+        "reason": "画面、擬似表示、読めそうなラベルを含む",
+        "replacement_filename": "ComfyUI_00070_.png"
+      }
+    ]
+  },
+  "accepted": [
+    {
+      "published": "kura-taifu-balcony-20260817-hero.png",
+      "asset_id": "ba55e4be-eb16-4df0-8934-2030c507fb4e",
+      "prompt_id": "ef92b059-9870-4cc9-8564-82bcd8915f9b",
+      "seed": 8172601,
+      "sha256": "7ac3973dca37479a52d5d2a86c1815c436beb4b7f573cce5dee8124b0017d639"
+    },
+    {
+      "published": "kura-taifu-balcony-20260817-01.png",
+      "asset_id": "9d2a2f78-02e0-4cd5-8af2-ccf932a4cae6",
+      "prompt_id": "0396ed4a-5313-4be7-a341-02fb289c3cbc",
+      "seed": 8172602,
+      "sha256": "f485148e73045a970debdd411d4910e04772964f680947153314fedf03bd0811"
+    },
+    {
+      "published": "kura-taifu-balcony-20260817-02.png",
+      "asset_id": "4246f109-44ef-4057-895e-e658cb15b22f",
+      "prompt_id": "195d48e9-aadb-4a37-a7ed-9333973b1eb9",
+      "seed": 8172603,
+      "sha256": "272344ddc0dc1ed693527488844ce2ecbc04e6b76f4b629b3ae8e4214e62e8e7"
+    },
+    {
+      "published": "kura-taifu-balcony-20260817-03.png",
+      "asset_id": "8ab0babc-7847-4a05-9cda-06167a238ed8",
+      "prompt_id": "43104985-1cfa-4bce-8c39-8d7136777891",
+      "seed": 8172614,
+      "sha256": "7260ea3d74d7cfc8041c07d85a9edbd18f433d3da4593d5bee0738550cd43432"
+    },
+    {
+      "published": "kura-taifu-balcony-20260817-04.png",
+      "asset_id": "ef758c26-b366-4079-b0c6-c48dff1b8d14",
+      "prompt_id": "2fff2b87-a00c-4df7-94e3-7c0b4ff33e30",
+      "seed": 8172615,
+      "sha256": "a4f36f06de9d48b8845350afb0721b7769201f64cacb879a7d9b3de5354446e6"
+    },
+    {
+      "published": "kura-taifu-balcony-20260817-05.png",
+      "asset_id": "a9df3743-8818-4b2a-a314-8b009dd437d6",
+      "prompt_id": "68e33767-b014-40b5-8491-272880a2db9e",
+      "seed": 8172606,
+      "sha256": "2f7bba773cc1198cd0b13295f05985ce53716d317c4bcc12b86df5c284d0e95e"
+    }
+  ]
+}
