@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-21",
+  "site": "kurashinotes",
+  "host": "GTI15",
+  "visual_qa": "PASS after iterative Krea/RealVisXL contact-sheet review; only selected assets retained",
+  "accepted_count": 6,
+  "rejected_candidates_not_published": true,
+  "contact_sheet": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchb-20260821-final-selected\\kurashinotes\\kn-shingu-shikke-20260821-contact-sheet-final.jpg",
+  "assets": [
+    {
+      "filename": "kn-shingu-shikke-20260821-hero.png",
+      "bytes": 1624394,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": "Japanese bedroom with a plain white futon mattress safely propped in a stable inverted V shape to air after sleep, tatami floor, clear doorway, no people and no paper, realistic natural editorial stock photograph, physically plausible simple objects, coherent geometry, soft daylight, no artificial AI look, no people, no hands, no faces, no readable text, no letters, no numbers, no symbols, no logos, no brand marks, no watermark, no document, no form, no receipt, no certificate, no calendar, no currency, no visible screen, no user interface, no device label, no warning label, no surreal objects, 16:9",
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchb-20260821-gti15-regen\\kurashinotes\\00\\manifest.json",
+      "qa": "PASS"
+    },
+    {
+      "filename": "kn-shingu-shikke-20260821-01.png",
+      "bytes": 1701057,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": "Japanese tatami bedroom, plain futon mattress safely folded once into a stable self-supporting shape away from the doorway for airing, no objects, photorealistic editorial stock photo, natural soft daylight, physically plausible, simple minimal composition, no people, no hands, no faces, no readable text, no letters, no numbers, no symbols, no logos, no brand marks, no watermark, no labels, no paper sheets, no forms, no receipts, no certificates, no calendars, no currency, no visible screens, no interface, no surreal geometry, no artificial AI look, 1536 by 864 landscape",
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchb-20260821-gti15-realvis\\kurashinotes\\00\\manifest.json",
+      "qa": "PASS"
+    },
+    {
+      "filename": "kn-shingu-shikke-20260821-02.png",
+      "bytes": 1554136,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": "plain white futon resting neatly on a low wooden slatted platform in a Japanese tatami room, realistic simple geometry, no pillows, photorealistic editorial stock photo, natural soft daylight, physically plausible, simple minimal composition, no people, no hands, no faces, no readable text, no letters, no numbers, no symbols, no logos, no brand marks, no watermark, no labels, no paper sheets, no forms, no receipts, no certificates, no calendars, no currency, no visible screens, no interface, no surreal geometry, no artificial AI look, 1536 by 864 landscape",
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchb-20260821-gti15-realvis\\kurashinotes\\02\\manifest.json",
+      "qa": "PASS"
+    },
+    {
+      "filename": "kn-shingu-shikke-20260821-03.png",
+      "bytes": 1726624,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": "folded plain white sheet and pillowcase beside an empty fabric laundry basket on tatami, no paper and no products, photorealistic editorial stock photo, natural soft daylight, physically plausible, simple minimal composition, no people, no hands, no faces, no readable text, no letters, no numbers, no symbols, no logos, no brand marks, no watermark, no labels, no paper sheets, no forms, no receipts, no certificates, no calendars, no currency, no visible screens, no interface, no surreal geometry, no artificial AI look, 1536 by 864 landscape",
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchb-20260821-gti15-realvis\\kurashinotes\\03\\manifest.json",
+      "qa": "PASS"
+    },
+    {
+      "filename": "kn-shingu-shikke-20260821-04.png",
+      "bytes": 1634048,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": "Japanese closet with folded plain futons stored loosely with visible air gaps, simple empty shelves, no boxes, no labels, no paper, realistic natural editorial stock photograph, physically plausible simple objects, coherent geometry, soft daylight, no artificial AI look, no people, no hands, no faces, no readable text, no letters, no numbers, no symbols, no logos, no brand marks, no watermark, no document, no form, no receipt, no certificate, no calendar, no currency, no visible screen, no user interface, no device label, no warning label, no surreal objects, 16:9",
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchb-20260821-gti15-regen\\kurashinotes\\04\\manifest.json",
+      "qa": "PASS"
+    },
+    {
+      "filename": "kn-shingu-shikke-20260821-05.png",
+      "bytes": 1611254,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": "plain folded futon and a separate wooden slatted panel near an open window in a Japanese room, no paper, no electronics, no pillows, photorealistic editorial stock photo, natural soft daylight, physically plausible, simple minimal composition, no people, no hands, no faces, no readable text, no letters, no numbers, no symbols, no logos, no brand marks, no watermark, no labels, no paper sheets, no forms, no receipts, no certificates, no calendars, no currency, no visible screens, no interface, no surreal geometry, no artificial AI look, 1536 by 864 landscape",
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batchb-20260821-gti15-realvis\\kurashinotes\\05\\manifest.json",
+      "qa": "PASS"
+    }
+  ]
+}
